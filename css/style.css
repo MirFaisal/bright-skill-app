@@ -1,7 +1,8 @@
 :root {
   --mf-background-white: #ffffff;
   --mf-color-white: #ffffff;
-  --mf-btn-color-red: #f83600;
+  --mf-color-red: #f83600;
+  --mf-color-yellow: #df6812;
   --mf-background-gradient: linear-gradient(
     122.33deg,
     #f39200 0%,
@@ -14,12 +15,12 @@
   padding: 10px 25px;
   background: var(--mf-background-gradient);
   color: var(--mf-color-white);
+  border: 1px solid #f83600;
   transition: all 0.5s ease-in;
 }
 .btn-gradient:hover {
-  background: var(--mf-background-white);
-  color: var(--mf-btn-color-red);
-  border: 1px solid #f83600;
+  background: none;
+  color: var(--mf-color-red);
 }
 /* Navbar style start*/
 .navbar .navbar-nav .nav-item {
@@ -31,7 +32,49 @@
 /* Navbar style end*/
 /* ----------------- */
 /* Banner style start*/
-
+.banner {
+  height: 90vh;
+  background: var(--mf-background-light-pink);
+}
+.banner .showcase {
+  padding-top: 100px;
+}
+.banner .showcase .text img {
+  width: 35%;
+  padding-bottom: 20px;
+}
+.banner .showcase .text {
+  padding-bottom: 20px;
+}
+.banner .showcase .text .highlight {
+  color: var(--mf-color-yellow);
+}
+.banner .showcase .image {
+  height: 100%;
+}
+.banner .showcase .image img {
+  width: 80%;
+}
+/* Banner animation */
+.banner .shapes .item-1 {
+  width: 200px;
+  height: 200px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 23%;
+}
+.banner .shapes .item-1 .object-1 {
+  animation: circle 15s linear infinite;
+}
+@keyframes circle {
+  0% {
+    transform: rotate(0deg) translate(-100px) ;
+  }
+  100% {
+    transform: rotate(360deg) translate(-100px);
+  }
+}
 
 /* Banner style end*/
 /* ----------------- */
