@@ -39,6 +39,9 @@
 .banner .showcase {
   padding-top: 100px;
 }
+.banner .showcase {
+  padding-top: 100px;
+}
 .banner .showcase .text img {
   width: 35%;
   padding-bottom: 20px;
@@ -54,26 +57,6 @@
 }
 .banner .showcase .image img {
   width: 80%;
-}
-/* Banner animation */
-.banner .shapes .item-1 {
-  width: 200px;
-  height: 200px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 23%;
-}
-.banner .shapes .item-1 .object-1 {
-  animation: circle 15s linear infinite;
-}
-@keyframes circle {
-  0% {
-    transform: rotate(0deg) translate(-100px) ;
-  }
-  100% {
-    transform: rotate(360deg) translate(-100px);
-  }
 }
 
 /* Banner style end*/
