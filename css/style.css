@@ -1,0 +1,37 @@
+:root {
+  --mf-background-white: #ffffff;
+  --mf-color-white: #ffffff;
+  --mf-btn-color-red: #f83600;
+  --mf-background-gradient: linear-gradient(
+    122.33deg,
+    #f39200 0%,
+    #f83600 102.08%
+  );
+  --mf-background-light-pink: #faf0f0;
+}
+/* Buttons style */
+.btn-gradient {
+  padding: 10px 25px;
+  background: var(--mf-background-gradient);
+  color: var(--mf-color-white);
+  transition: all 0.5s ease-in;
+}
+.btn-gradient:hover {
+  background: var(--mf-background-white);
+  color: var(--mf-btn-color-red);
+  border: 1px solid #f83600;
+}
+/* Navbar style start*/
+.navbar .navbar-nav .nav-item {
+  margin-right: 50px;
+}
+.navbar .navbar-nav .nav-item:last-child {
+  margin-right: 0px;
+}
+/* Navbar style end*/
+/* ----------------- */
+/* Banner style start*/
+
+
+/* Banner style end*/
+/* ----------------- */
