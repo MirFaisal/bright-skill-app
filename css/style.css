@@ -3,12 +3,12 @@
   --mf-color-white: #ffffff;
   --mf-color-red: #f83600;
   --mf-color-yellow: #df6812;
+  --mf-background-light-pink: #faf0f0;
   --mf-background-gradient: linear-gradient(
     122.33deg,
     #f39200 0%,
     #f83600 102.08%
   );
-  --mf-background-light-pink: #faf0f0;
 }
 /* Buttons style */
 .btn-gradient {
@@ -23,6 +23,9 @@
   color: var(--mf-color-red);
 }
 /* Navbar style start*/
+.navbar {
+  z-index: 999;
+}
 .navbar .navbar-nav .nav-item {
   margin-right: 50px;
 }
@@ -33,14 +36,20 @@
 /* ----------------- */
 /* Banner style start*/
 .banner {
-  height: 90vh;
+  height: 100vh;
   background: var(--mf-background-light-pink);
 }
-.banner .showcase {
-  padding-top: 100px;
+.banner .shapes {
+  width: 100%;
+  height: 100%;
 }
 .banner .showcase {
-  padding-top: 100px;
+  padding-top: 150px;
+  height: 90%;
+  overflow: hidden;
+}
+.banner .showcase .mockup {
+  width: 100%;
 }
 .banner .showcase .text img {
   width: 35%;
@@ -61,3 +70,5 @@
 
 /* Banner style end*/
 /* ----------------- */
+/* About style start */
+

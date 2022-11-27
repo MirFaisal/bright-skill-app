@@ -6,16 +6,14 @@
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 23%;
-  
 }
 .banner .shapes .item-2 {
   width: 200px;
   height: 200px;
   top: 30%;
-  left: 80%;
+  left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 23%;
-  
 }
 .banner .shapes .item-3 {
   width: 200px;
@@ -24,19 +22,151 @@
   left: 55%;
   transform: translate(-50%, -50%);
   border-radius: 23%;
-  
+}
+.banner .shapes .item-4 {
+  width: 200px;
+  height: 200px;
+  top: 50%;
+  left: 57%;
+  transform: translate(-50%, -50%);
+  border-radius: 23%;
+}
+.banner .shapes .item-5 {
+  width: 200px;
+  height: 200px;
+  top: 30%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  border-radius: 23%;
+}
+.banner .shapes .item-6 {
+  width: 200px;
+  height: 200px;
+  top: 60%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  border-radius: 23%;
+}
+.banner .shapes .item-7 {
+  width: 200px;
+  height: 200px;
+  top: 80%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  border-radius: 23%;
+}
+.banner .shapes .item-8 {
+  width: 200px;
+  height: 200px;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 23%;
+}
+.banner .shapes .item-9 {
+  width: 200px;
+  height: 200px;
+  top: 45%;
+  left: 34%;
+  transform: translate(-50%, -50%);
+  border-radius: 23%;
+}
+.banner .shapes .item-10 {
+  width: 200px;
+  height: 200px;
+  top: 20%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  border-radius: 23%;
+}
+.banner .shapes .item-11 {
+  width: 200px;
+  height: 200px;
+  top: 70%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+  border-radius: 23%;
+}
+.banner .shapes .item-12 {
+  width: 200px;
+  height: 200px;
+  top: 10%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  border-radius: 23%;
+}
+.banner .shapes .item-13 {
+  width: 200px;
+  height: 200px;
+  top: 50%;
+  left: 89%;
+  transform: translate(-50%, -50%);
+  border-radius: 23%;
 }
 .banner .shapes .item-1 .object-1 {
-  animation: object1 100s linear infinite;
-  opacity: 0.4;
+  width: 40%;
+  animation: object1 200s alternate infinite;
+  opacity: 0.9;
 }
 .banner .shapes .item-2 .object-2 {
-  animation: object2 100s linear infinite;
-  opacity: 0.4;
+  width: 50%;
+  animation: object2 100s alternate infinite;
+  opacity: 0.9;
 }
 .banner .shapes .item-3 .object-3 {
-  animation: object3 60s linear infinite;
-  opacity: 0.4;
+  width: 20%;
+  animation: object3 80s alternate infinite;
+  opacity: 0.9;
+}
+.banner .shapes .item-4 .object-4 {
+  width: 60%;
+  animation: object4 200s alternate infinite;
+  opacity: 0.9;
+}
+.banner .shapes .item-5 .object-5 {
+  width: 60%;
+  animation: object5 50s alternate infinite;
+  opacity: 0.9;
+}
+.banner .shapes .item-6 .object-6 {
+  width: 100%;
+  animation: object6 200s alternate infinite;
+  opacity: 0.9;
+}
+.banner .shapes .item-7 .object-7 {
+  width: 30%;
+  animation: object7 200s alternate infinite;
+  opacity: 0.9;
+}
+.banner .shapes .item-8 .object-8 {
+  width: 70%;
+  animation: object8 50s alternate infinite;
+  opacity: 0.9;
+}
+.banner .shapes .item-9 .object-9 {
+  width: 50%;
+  animation: object9 100s alternate-reverse infinite;
+  opacity: 0.9;
+}
+.banner .shapes .item-10 .object-10 {
+  width: 70%;
+  animation: object10 200s alternate infinite;
+  opacity: 0.9;
+}
+.banner .shapes .item-11 .object-11 {
+  width: 70%;
+  animation: object11 80s alternate infinite;
+  opacity: 1;
+}
+.banner .shapes .item-12 .object-12 {
+  width: 70%;
+  animation: object12 200s alternate infinite;
+  opacity: 0.9;
+}
+.banner .shapes .item-13 .object-13 {
+  width: 70%;
+  animation: object13 200s alternate infinite;
+  opacity: 0.9;
 }
 @keyframes object1 {
   0% {
@@ -57,19 +187,19 @@
 }
 @keyframes object2 {
   0% {
-    transform: rotate(0deg) translate(10px);
+    transform: rotate(0deg) translate(-90px);
   }
   25% {
-    transform: rotate(90deg) translate(50px);
+    transform: rotate(180deg) translate(50px);
   }
   50% {
-    transform: rotate(180deg) translateY(80px);
+    transform: rotate(360deg) translateY(80px);
   }
   75% {
-    transform: rotate(270deg) translateX(200px);
+    transform: rotate(-180deg) translateX(200px);
   }
   100% {
-    transform: rotate(360deg) translateX(300px);
+    transform: rotate(0deg) translateX(300px);
   }
 }
 @keyframes object3 {
@@ -87,5 +217,178 @@
   }
   100% {
     transform: rotate(360deg) translateX(300px);
+  }
+}
+@keyframes object4 {
+  0% {
+    transform: rotate(0deg) translateY(-200px);
+  }
+  25% {
+    transform: rotate(90deg) translate(50px);
+  }
+  50% {
+    transform: rotate(180deg) translateY(20px);
+  }
+  75% {
+    transform: rotate(270deg) translateX(400px);
+  }
+  100% {
+    transform: rotate(360deg) translateX(300px);
+  }
+}
+@keyframes object5 {
+  0% {
+    transform: rotate(0deg) translate(-50px);
+  }
+  25% {
+    transform: rotate(90deg) translate(50px);
+  }
+  50% {
+    transform: rotate(180deg) translateY(80px);
+  }
+  75% {
+    transform: rotate(270deg) translateX(200px);
+  }
+  100% {
+    transform: rotate(360deg) translateX(300px);
+  }
+}
+@keyframes object6 {
+  0% {
+    transform: rotate(0deg) translate(0px);
+  }
+  25% {
+    transform: rotate(180deg) translate(100px);
+  }
+  50% {
+    transform: rotate(360deg) translateY(180px);
+  }
+  75% {
+    transform: rotate(-180deg) translateX(300px);
+  }
+  100% {
+    transform: rotate(0) translateX(300px);
+  }
+}
+@keyframes object7 {
+  0% {
+    transform: rotate(0deg) translate(200px);
+  }
+  25% {
+    transform: rotate(90deg) translate(50px);
+  }
+  50% {
+    transform: rotate(180deg) translateY(20px);
+  }
+  75% {
+    transform: rotate(270deg) translateX(400px);
+  }
+  100% {
+    transform: rotate(360deg) translateX(300px);
+  }
+}
+@keyframes object8 {
+  0% {
+    transform: rotate(0deg) translateY(100px);
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes object9 {
+  0% {
+    transform: rotate(0deg) translateX(-100px);
+  }
+  25% {
+    transform: rotate(180deg) translateX(100px);
+  }
+  50% {
+    transform: rotate(360deg) translateY(100px);
+  }
+  75% {
+    transform: rotate(-180deg) translateX(-100px);
+  }
+  100% {
+    transform: rotate(0deg) translateX(300px);
+  }
+}
+@keyframes object10 {
+  0% {
+    transform: rotate(0deg) translate(100px);
+  }
+  25% {
+    transform: rotate(180deg) translate(150px);
+  }
+  50% {
+    transform: rotate(360deg) translateY(180px);
+  }
+  75% {
+    transform: rotate(-180deg) translateX(300px);
+  }
+  100% {
+    transform: rotate(-1deg) translateX(300px);
+  }
+}
+@keyframes object11 {
+  0% {
+    transform: rotate(0deg) translateX(0px);
+  }
+  25% {
+    transform: translate(400px);
+  }
+  50% {
+    transform: translate(1000px);
+  }
+  75% {
+    transform: rotate(-180deg) translateX(300px);
+  }
+  100% {
+    transform: rotate(0deg) translateX(1100px);
+  }
+}
+@keyframes object12 {
+  0% {
+    transform: rotate(0deg) translate(-100px);
+  }
+  25% {
+    transform: rotate(180deg) translate(150px);
+  }
+  50% {
+    transform: rotate(280deg) translateY(180px);
+  }
+  75% {
+    transform: rotate(360deg) translateX(300px);
+  }
+  100% {
+    transform: rotate(360deg) translateX(300px);
+  }
+}
+@keyframes object13 {
+  0% {
+    transform: rotateX(0deg) translate(0px);
+  }
+  20% {
+    transform: rotateX(20deg) translatex(-100px);
+  }
+  40% {
+    transform: rotateX(30deg) translateY(200px);
+  }
+  60% {
+    transform: rotateX(20deg) translateX(250px);
+  }
+  80% {
+    transform: rotateX(0deg) translateY(-200px);
+  }
+  100% {
+    transform: rotateX(0deg) translateY(100px);
   }
 }
