@@ -1,3 +1,5 @@
+/* Remote Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Poppins:wght@400;500;700;900&display=swap");
 :root {
   --mf-background-white: #ffffff;
   --mf-color-white: #ffffff;
@@ -9,6 +11,9 @@
     #f39200 0%,
     #f83600 102.08%
   );
+}
+* {
+  font-family: 'Poppins', sans-serif;
 }
 /* Buttons style */
 .btn-gradient {
@@ -57,6 +62,10 @@
 }
 .banner .showcase .text {
   padding-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.banner .showcase .text .title {
+  font-family: "Poppins", sans-serif;
 }
 .banner .showcase .text .highlight {
   color: var(--mf-color-yellow);
@@ -71,4 +80,3 @@
 /* Banner style end*/
 /* ----------------- */
 /* About style start */
-
