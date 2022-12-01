@@ -1,4 +1,22 @@
 @media (min-width: 320px) and (max-width: 575.98px) {
+  /* Navbar */
+  .navbar {
+    background: #fff;
+    padding: 20px 0;
+  }
+  .navbar-toggler {
+    border: 0;
+  }
+  .navbar .navbar-toggler:focus:not(:focus-visible) {
+    outline: 0;
+    box-shadow: none;
+  }
+  .navbar .navbar-nav .nav-item {
+    margin: 0 auto;
+  }
+  .navbar .navbar-nav .nav-item:last-child {
+    margin: 0 auto;
+  }
   /* Banner */
   .banner {
     height: 100vh;
@@ -42,7 +60,7 @@
     font-size: 2rem;
   }
   .highlight {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
   /* About */
   .about .text .about-title {
@@ -53,7 +71,7 @@
   .about .text .about-title .highlight-sm {
     font-size: 1.2rem;
   }
-  .about .main .item .courses{
+  .about .main .item .courses {
     overflow: scroll;
   }
 }
