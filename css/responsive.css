@@ -53,4 +53,7 @@
   .about .text .about-title .highlight-sm {
     font-size: 1.2rem;
   }
+  .about .main .item .courses{
+    overflow: scroll;
+  }
 }
