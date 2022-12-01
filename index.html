@@ -26,7 +26,7 @@
     <!-- LOCAL CSS -->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body>
+  <body class="position-relative">
     <!-------------- 
       Navbar Start
      --------------->
@@ -185,66 +185,34 @@
             alt=""
           />
         </div>
-        <div class="item-9 position-absolute">
-          <img
-            class="img-fluid object-9"
-            src="./images/shape/object9.png"
-            alt=""
-          />
-        </div>
-        <div class="item-10 position-absolute">
-          <img
-            class="img-fluid object-10"
-            src="./images/shape/object10.png"
-            alt=""
-          />
-        </div>
-        <div class="item-11 position-absolute">
-          <img
-            class="img-fluid object-11"
-            src="./images/shape/object11.png"
-            alt=""
-          />
-        </div>
-        <div class="item-12 position-absolute">
-          <img
-            class="img-fluid object-12"
-            src="./images/shape/object12.png"
-            alt=""
-          />
-        </div>
-        <div class="item-13 position-absolute">
-          <img
-            class="img-fluid object-13"
-            src="./images/shape/object13.png"
-            alt=""
-          />
-        </div>
       </div>
       <div class="main position-absolute w-100">
         <div class="container">
           <div class="showcase row">
-            <div class="image col-4 pb-5 d-flex justify-content-start">
+            <div class="image col-6 p-0 d-flex justify-content-start">
               <div class="mockup">
-                <img src="./images/mockup/mockup1.png" alt="" />
+                <img class="img-fluid" src="./images/mockup/test.png" alt="" />
               </div>
             </div>
             <div
-              class="text col-8 d-flex flex-column justify-content-center align-items-end"
+              class="text col-6 p-0 d-flex flex-column justify-content-center align-items-end"
             >
               <img src="./images/svg/logo.svg" alt="" />
-              <h1 class="title w-75 pb-3 m-0 text-end">
+              <h1 class="hero m-0 text-end">
                 Aim to be <span class="highlight">efficient</span> !
               </h1>
-              <h3 class="w-75 pb-3 m-0 text-end">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Explicabo cupiditate velit harum?
-              </h3>
-              <p class="text-end m-0 w-75">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est at
-                explicabo praesentium accusamus aliquid assumenda illum.
-                Praesentium cupiditate numquam nobis?
-              </p>
+              <div class="herp-moto text-end">
+                <p class="m-0">
+                  In this age of 'everything is possible, why are you calling
+                  yourself 'impossible'? Develop your skills at home now - from
+                  the best experts!
+                </p>
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.brightskills.app&hl=en&gl=US"
+                >
+                  <img src="./images/logo/play-store-logo-.png" alt="" />
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -260,9 +228,9 @@
      -------------->
     <section class="about pt-5 pb-5" id="about">
       <div class="text text-center">
-        <h4 class="about-title w-25 mx-auto">
-          Why Bright Skill -The Learning App is every student's favourite
-          learning companion
+        <h4 class="about-title">
+          Why <span class="highlight">brightSkills</span> -The Learning App is
+          every student's favourite learning companion
         </h4>
       </div>
       <div class="container">
@@ -277,6 +245,35 @@
                   visual aids. These life-like videos help us to strengthen our
                   fundamental concepts and learn consistently.
                 </p>
+                <div class="d-flex">
+                  <a
+                    class="nav-link me-3"
+                    target="_blank"
+                    href="https://www.brightskills.com/course-details/earn-more-learn-motion-graphics"
+                  >
+                    <div
+                      class="video-1 d-flex justify-content-center align-items-center"
+                    >
+                      <i class="fa-solid fa-circle-play"></i></div
+                  ></a>
+                  <a
+                    class="nav-link"
+                    target="_blank"
+                    href="https://www.brightskills.com/course-details/freelancing-with-wordpress-theme-customization"
+                    ><div
+                      class="video-2 d-flex justify-content-center align-items-center"
+                    >
+                      <i class="fa-solid fa-circle-play"></i></div
+                  ></a>
+                </div>
+                <div>
+                  <a
+                    target="_blank"
+                    class="btn btn-gradient mt-4 rounded-5"
+                    href="https://www.brightskills.com/"
+                    >View more videos</a
+                  >
+                </div>
               </div>
               <div class="col-6 d-flex justify-content-end">
                 <img
@@ -289,7 +286,9 @@
           </div>
           <div class="item">
             <div class="row flex-row-reverse">
-              <div class="text col-6 d-flex flex-column justify-content-center">
+              <div
+                class="text text-end col-6 d-flex flex-column justify-content-center"
+              >
                 <h5>Specially crafted for every type of learner</h5>
                 <p>
                   All of us are unique learners, we study at our own speed and
@@ -298,6 +297,14 @@
                   know my strong areas and identify topics which require more
                   attention.
                 </p>
+                <div>
+                  <a
+                    target="_blank"
+                    class="btn btn-gradient mt-4 rounded-5"
+                    href="https://www.brightskills.com/signin"
+                    >Start your journey</a
+                  >
+                </div>
               </div>
               <div class="col-6 d-flex justify-content-start">
                 <img
@@ -319,6 +326,14 @@
                   I can fast-forward or slow down the lecture according to my
                   convenience.
                 </p>
+                <div>
+                  <a
+                    target="_blank"
+                    class="btn btn-gradient mt-4 rounded-5"
+                    href="https://www.brightskills.com/signin"
+                    >Explpore now</a
+                  >
+                </div>
               </div>
               <div class="col-6 d-flex justify-content-end">
                 <img
@@ -331,12 +346,22 @@
           </div>
           <div class="item">
             <div class="row flex-row-reverse">
-              <div class="text col-6 d-flex flex-column justify-content-center">
+              <div
+                class="text text-end col-6 d-flex flex-column justify-content-center"
+              >
                 <h5>Practice & in-depth analysis</h5>
                 <p>
                   We can also refer to visual solutions and video suggestions to
                   clear our doubts and learn from our mistakes.
                 </p>
+                <div>
+                  <a
+                    target="_blank"
+                    class="btn btn-gradient mt-4 rounded-5"
+                    href="https://www.brightskills.com/signin"
+                    >Know more</a
+                  >
+                </div>
               </div>
               <div class="col-6 d-flex justify-content-start">
                 <img
@@ -358,6 +383,14 @@
                   and easy. End-to-end mapping of chapters makes my learning
                   journey easier.
                 </p>
+                <div>
+                  <a
+                    target="_blank"
+                    class="btn btn-gradient mt-4 rounded-5"
+                    href="https://www.brightskills.com/signin"
+                    >Explpore now</a
+                  >
+                </div>
               </div>
               <div class="col-6 d-flex justify-content-end">
                 <img
@@ -374,8 +407,14 @@
     <!-------------------
       About section end
      -------------------->
-
+    <!-- Fluide player -->
+    <!-- <script src="https://cdn.fluidplayer.com/v3/current/fluidplayer.min.js"></script>
+    <script src="./js/fulide-video.js"></script> -->
     <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://kit.fontawesome.com/deb5ec3c82.js"
+      crossorigin="anonymous"
+    ></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"

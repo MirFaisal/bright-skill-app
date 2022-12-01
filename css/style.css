@@ -1,11 +1,37 @@
 /* Remote Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Poppins:wght@400;500;700;900&display=swap");
 :root {
-  --mf-background-white: #ffffff;
-  --mf-color-white: #ffffff;
-  --mf-color-red: #f83600;
-  --mf-color-yellow: #df6812;
-  --mf-background-light-pink: #faf0f0;
+  --mf-blue: #0d6efd;
+  --mf-indigo: #6610f2;
+  --mf-purple: #6f42c1;
+  --mf-red: #f83600;
+  --mf-orange: #df6812;
+  --mf-yellow: #ffc107;
+  --mf-green: #198754;
+  --mf-teal: #20c997;
+  --mf-cyan: #0dcaf0;
+  --mf-black: #000;
+  --mf-white: #fff;
+  --mf-gray: #6c757d;
+  --mf-gray-dark: #343a40;
+  --mf-gray-100: #f8f9fa;
+  --mf-gray-200: #e9ecef;
+  --mf-gray-300: #dee2e6;
+  --mf-gray-400: #ced4da;
+  --mf-gray-500: #adb5bd;
+  --mf-gray-600: #6c757d;
+  --mf-gray-700: #495057;
+  --mf-gray-800: #343a40;
+  --mf-gray-900: #212529;
+  --mf-primary: #0d6efd;
+  --mf-secondary: #6c757d;
+  --mf-success: #198754;
+  --mf-info: #0dcaf0;
+  --mf-warning: #ffc107;
+  --mf-danger: #dc3545;
+  --mf-light: #f8f9fa;
+  --mf-dark: #212529;
+  --mf-pink: #faf0f0;
   --mf-background-gradient: linear-gradient(
     122.33deg,
     #f39200 0%,
@@ -13,19 +39,27 @@
   );
 }
 * {
-  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+/* common style */
+.highlight {
+  color: var(--mf-orange);
+  font-size: 3.2rem;
 }
 /* Buttons style */
 .btn-gradient {
   padding: 10px 25px;
   background: var(--mf-background-gradient);
-  color: var(--mf-color-white);
+  color: var(--mf-white);
   border: 1px solid #f83600;
   transition: all 0.5s ease-in;
 }
 .btn-gradient:hover {
+  border: 1px solid #f83600;
   background: none;
-  color: var(--mf-color-red);
+  color: var(--mf-red);
 }
 /* Navbar style start*/
 .navbar {
@@ -42,41 +76,68 @@
 /* Banner style start*/
 .banner {
   height: 100vh;
-  background: var(--mf-background-light-pink);
+  background: var(--mf-pink);
 }
 .banner .shapes {
   width: 100%;
   height: 100%;
 }
-.banner .showcase {
-  padding-top: 150px;
-  height: 90%;
+.banner .main .showcase {
+  padding-top: 140px;
+  height: 100%;
   overflow: hidden;
 }
-.banner .showcase .mockup {
+.banner .main .showcase .text {
+  font-family: "Poppins", sans-serif;
+}
+.banner .showcase .text .hero {
+  padding: 0 0 10px;
   width: 100%;
+  font-size: 3.5rem;
 }
-.banner .showcase .text img {
-  width: 35%;
-  padding-bottom: 20px;
+
+.banner .showcase .text .hero-motto {
+  width: 100%;
+  padding: 0 0 10px;
+  font-size: 1.5rem;
 }
-.banner .showcase .text {
-  padding-bottom: 20px;
-  font-family: "Poppins", sans-serif;
-}
-.banner .showcase .text .title {
-  font-family: "Poppins", sans-serif;
-}
-.banner .showcase .text .highlight {
-  color: var(--mf-color-yellow);
-}
-.banner .showcase .image {
-  height: 100%;
-}
-.banner .showcase .image img {
-  width: 80%;
+.banner .main .showcase .text img {
+  width: 40%;
+  padding: 0 0 20px;
 }
 
 /* Banner style end*/
 /* ----------------- */
 /* About style start */
+.about .main .item {
+  padding: 80px 0 0;
+}
+.about .text .about-title {
+  width: 50%;
+  margin: 0 auto;
+  padding: 80px 0px 0;
+  font-size: 2.5rem;
+  line-height: 60px;
+}
+.about .text .video-1 {
+  width: 200px;
+  height: 130px;
+  background: url("https://panel.brightskills.com/media/course/Earn%20More%20Learn%20Motion%20Graphics/Motion-Graphics.jpg")
+    no-repeat center;
+  background-size: cover;
+  border-radius: 20px;
+}
+.about .text .video-2 {
+  width: 200px;
+  height: 130px;
+  background: url("https://panel.brightskills.com/media/course/Freelancing%20with%20WordPress%20Theme%20Customization/558-X-1.JPG")
+    no-repeat center;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.about .text i {
+  color: var(--mf-orange);
+  font-size: 3rem;
+  opacity: 0.8;
+}
