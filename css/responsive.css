@@ -1,18 +1,36 @@
 @media (min-width: 320px) and (max-width: 575.98px) {
   /* Banner */
   .banner {
-	height: 580px;
-}
+    height: 580px;
+  }
+  .banner .main .showcase {
+    padding-top: 180px;
+    height: 100%;
+    overflow: hidden;
+  }
   .banner .main .showcase .image img {
     display: none;
   }
-  .banner .main .showcase .text img {
+  .banner .main .showcase .text .brand-logo {
     display: none;
+  }
+  .banner .main .showcase .text .gp-app-logo {
+    width: 40%;
+    padding: 40px 0;
   }
   .banner .showcase .text .hero {
     font-size: 2rem;
   }
   .highlight {
     font-size: 2.5rem;
+  }
+  /* About */
+  .about .text .about-title {
+    width: auto;
+    font-size: 1.1rem;
+    line-height: 25px;
+  }
+  .about .text .about-title .highlight-sm {
+    font-size: 1.2rem;
   }
 }
