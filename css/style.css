@@ -75,7 +75,7 @@
 /* ----------------- */
 /* Banner style start*/
 .banner {
-  height: 100vh;
+  height: 900px;
   background: var(--mf-pink);
 }
 .banner .shapes {
@@ -86,6 +86,9 @@
   padding-top: 140px;
   height: 100%;
   overflow: hidden;
+}
+.banner .main .showcase .image img {
+  width: 100%;
 }
 .banner .main .showcase .text {
   font-family: "Poppins", sans-serif;
