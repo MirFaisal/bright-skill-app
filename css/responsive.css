@@ -1,10 +1,30 @@
 @media (min-width: 320px) and (max-width: 575.98px) {
   /* Banner */
   .banner {
-    height: 580px;
+    height: 100vh;
+  }
+  .banner .shapes {
+    overflow: hidden;
+  }
+  .banner .shapes .item-1 {
+    top: 25%;
+    left: 30%;
+  }
+  .banner .shapes .item-5 {
+    top: 80%;
+    left: 80%;
+  }
+  .banner .shapes .item-6 {
+    display: none;
+  }
+  .banner .shapes .item-7 {
+    display: none;
+  }
+  .banner .shapes .item-8 {
+    display: none;
   }
   .banner .main .showcase {
-    padding-top: 180px;
+    padding-top: 280px;
     height: 100%;
     overflow: hidden;
   }
