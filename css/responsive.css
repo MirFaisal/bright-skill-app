@@ -131,4 +131,7 @@
   .features .main .item-1 .text h4 i {
     display: none;
   }
+  .features .main .item-2 {
+    display: none !important;
+  }
 }
