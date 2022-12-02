@@ -21,6 +21,8 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- ANIMATION CSS -->
     <link rel="stylesheet" href="./css/animation.css" />
     <!-- LOCAL CSS -->
@@ -249,12 +251,12 @@
       </div>
       <div class="container">
         <div class="main">
-          <div class="item">
+          <div class="item" data-aos="fade-down-left">
             <div class="row flex-column-reverse flex-lg-row">
               <div
                 class="text col-lg-6 text-lg-start text-center d-flex flex-column justify-content-center"
               >
-                <h5>Skilled Teachers</h5>
+                <h5 class="highlight">Skilled Teachers</h5>
                 <p>
                   We learn from the top teachers across the country, where every
                   lesson is taught using world-class technology and realistic
@@ -311,12 +313,14 @@
               </div>
             </div>
           </div>
-          <div class="item">
+          <div class="item" data-aos="fade-up-right">
             <div class="row flex-lg-row-reverse flex-column-reverse">
               <div
                 class="text text-center text-lg-end col-lg-6 d-flex flex-column justify-content-center"
               >
-                <h5>Specially crafted for every type of learner</h5>
+                <h5 class="highlight">
+                  Specially crafted for every type of learner
+                </h5>
                 <p>
                   All of us are unique learners, we study at our own speed and
                   with different methods. The BrightSkills app understands this
@@ -344,12 +348,12 @@
               </div>
             </div>
           </div>
-          <div class="item">
+          <div class="item" data-aos="fade-down-right">
             <div class="row flex-column-reverse flex-lg-row">
               <div
                 class="text text-center text-lg-start col-lg-6 d-flex flex-column justify-content-center"
               >
-                <h5>Adaptive tools to simplify learning</h5>
+                <h5 class="highlight">Adaptive tools to simplify learning</h5>
                 <p>
                   Language should never be a barrier to learning. BrightSkills
                   app allows me to watch my study videos in the language of my
@@ -377,12 +381,12 @@
               </div>
             </div>
           </div>
-          <div class="item">
+          <div class="item" data-aos="fade-up-left">
             <div class="row flex-lg-row-reverse flex-column-reverse">
               <div
                 class="text text-center text-lg-end col-lg-6 d-flex flex-column justify-content-center"
               >
-                <h5>Practice & in-depth analysis</h5>
+                <h5 class="highlight">Practice & in-depth analysis</h5>
                 <p>
                   We can also refer to visual solutions and video suggestions to
                   clear our doubts and learn from our mistakes.
@@ -407,12 +411,12 @@
               </div>
             </div>
           </div>
-          <div class="item pb-0">
+          <div class="item pb-0" data-aos="fade-up">
             <div class="row flex-column-reverse flex-lg-row">
               <div
                 class="text text-lg-start text-center col-lg-6 d-flex flex-column justify-content-center"
               >
-                <h5>Comprehensive study material</h5>
+                <h5 class="highlight">Comprehensive study material</h5>
                 <p>
                   BrightSkills app allows me to learn anytime and anywhere. I
                   have concept videos, practice modules, quizzes, revision tests
@@ -457,7 +461,11 @@
           </div>
           <div class="container">
             <div class="row">
-              <div class="col-lg-6 d-flex justify-content-lg-start">
+              <div
+                class="col-lg-6 d-flex justify-content-lg-start"
+                data-aos="fade-down-right"
+                data-aos-duration="1000"
+              >
                 <img
                   class="img-fluid"
                   src="./images/mockup/f-mockup-1.png"
@@ -468,32 +476,44 @@
                 class="col-lg-6 d-flex justify-content-lg-center align-items-lg-center"
               >
                 <div class="text text-center text-lg-start">
-                  <h2>learning dashboard</h2>
-                  <p>
-                    Learning dashboards are a rapid way to see and understand
-                    what your learning metrics are. A learning dashboard is
-                    normally a central place where someone goes to see a
-                    visualisation of your learning data. A dashboard gives you
-                    and your stakeholders a map of the progress of your goals.
-                  </p>
-                  <h4>
-                    <i class="fa-solid fa-circle-dot"></i> Total enroll course
-                  </h4>
-                  <p class="ps-lg-4">Number of courses enrolled</p>
-                  <h4>
-                    <i class="fa-solid fa-circle-dot"></i> completed course
-                  </h4>
-                  <p class="ps-lg-4">As many enrolled courses as completed</p>
-                  <h4>
-                    <i class="fa-solid fa-circle-dot"></i> Total learning time
-                  </h4>
-                  <p class="ps-lg-4">
-                    Total learning time for all enrolled courses
-                  </p>
-                  <h4><i class="fa-solid fa-circle-dot"></i> Total points</h4>
-                  <p class="ps-lg-4">
-                    Points can be added from some quizzes in each lesson
-                  </p>
+                  <div data-aos="fade-left" data-aos-duration="250">
+                    <h2 class="highlight">learning dashboard</h2>
+                    <p>
+                      Learning dashboards are a rapid way to see and understand
+                      what your learning metrics are. A learning dashboard is
+                      normally a central place where someone goes to see a
+                      visualisation of your learning data. A dashboard gives you
+                      and your stakeholders a map of the progress of your goals.
+                    </p>
+                  </div>
+                  <div data-aos="fade-left" data-aos-duration="500">
+                    <h4 class="highlight">
+                      <i class="fa-solid fa-circle-dot"></i> Total enroll course
+                    </h4>
+                    <p class="ps-lg-4">Number of courses enrolled</p>
+                  </div>
+                  <div data-aos="fade-left" data-aos-duration="750">
+                    <h4 class="highlight">
+                      <i class="fa-solid fa-circle-dot"></i> completed course
+                    </h4>
+                    <p class="ps-lg-4">As many enrolled courses as completed</p>
+                  </div>
+                  <div data-aos="fade-left" data-aos-duration="1000">
+                    <h4 class="highlight">
+                      <i class="fa-solid fa-circle-dot"></i> Total learning time
+                    </h4>
+                    <p class="ps-lg-4">
+                      Total learning time for all enrolled courses
+                    </p>
+                  </div>
+                  <div data-aos="fade-left" data-aos-duration="1250">
+                    <h4 class="highlight">
+                      <i class="fa-solid fa-circle-dot"></i> Total points
+                    </h4>
+                    <p class="ps-lg-4">
+                      Points can be added from some quizzes in each lesson
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -502,24 +522,39 @@
         <div class="item-2 d-lg-block">
           <div class="container position-relative">
             <div class="row">
-              <div class="col-lg-8">
+              <div
+                class="col-lg-8"
+                data-aos="fade-right"
+                data-aos-duration="500"
+              >
                 <div
                   class="text d-flex flex-column align-items-lg-end justify-content-lg-center"
                 >
-                  <h2 class="text-end">BrightSkills points</h2>
+                  <h2 class="text-end highlight">BrightSkills points</h2>
                   <p class="text-end w-75">
                     You can buy courses with these points BrightSkill Point
                     Value: 10 points = 1 Tk. The Brightskills Award will give
                     you renewed motivation to develop your skills. Your skills
                     are the key to your success
                   </p>
-                  <a class="btn btn-gradient rounded-5" href=""> Know more</a>
+                  <a
+                    class="btn btn-gradient rounded-5"
+                    href="https://play.google.com/store/apps/details?id=com.brightskills.app&hl=en&gl=US"
+                  >
+                    Get The App</a
+                  >
                 </div>
               </div>
               <div
                 class="position-absolute mockup col-lg-4 d-flex justify-content-lg-end d-lg-block"
               >
-                <img class="w-75" src="./images/mockup/f-mockup-2.png" alt="" />
+                <img
+                  class="w-75"
+                  data-aos="zoom-out-left"
+                  data-aos-duration="500"
+                  src="./images/mockup/f-mockup-2.png"
+                  alt=""
+                />
               </div>
             </div>
           </div>
@@ -541,5 +576,10 @@
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

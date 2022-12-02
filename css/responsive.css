@@ -65,9 +65,10 @@
   .banner .showcase .text .hero {
     font-size: 2rem;
   }
-  .highlight {
+  .banner .showcase .text .hero .highlight {
     font-size: 3rem;
   }
+
   /* About */
   .about {
     padding: 20px 0;
@@ -106,7 +107,7 @@
   .features .main .item-1 {
     padding: 30px 0;
   }
-  .features .main .item-1 .highlight {
+  .features .main .item-1 .title .highlight {
     font-size: 2rem;
   }
   .features .main .item-1 .text {

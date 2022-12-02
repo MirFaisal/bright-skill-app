@@ -1,6 +1,7 @@
 /* Remote Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Poppins:wght@400;500;700;900&display=swap");
 :root {
+  --mf-peragraph: #737373;
   --mf-blue: #0d6efd;
   --mf-indigo: #6610f2;
   --mf-purple: #6f42c1;
@@ -126,6 +127,9 @@
 .about .main .item {
   padding: 50px 0;
 }
+.about .main .item p {
+  color: var(--mf-peragraph);
+}
 .about .text .about-title {
   margin: 0 auto;
   padding-bottom: 40px;
@@ -179,7 +183,10 @@
   background: var(--mf-gray-100);
   padding: 100px 0;
 }
-.features .main .item-1 .highlight {
+.features .main .item-1 p {
+  color: var(--mf-peragraph);
+}
+.features .main .item-1 .title .highlight {
   font-size: 3.5rem;
 }
 .features .main .item-1 .text i {
@@ -195,6 +202,9 @@
 }
 .features .main .item-2 .text {
   height: 500px;
+}
+.features .main .item-2 .text P {
+  color: var(--mf-peragraph);
 }
 .features .main .item-2 .mockup {
   left: 100%;
