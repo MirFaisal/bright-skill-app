@@ -1,8 +1,14 @@
 @media (min-width: 320px) and (max-width: 575.98px) {
+  /* common */
+  .btn-gradient {
+    padding: 5px 10px;
+    font-size: 0.7rem !important;
+  }
   /* Navbar */
   .navbar {
     background: #fff;
     padding: 20px 0;
+    top: 0;
   }
   .navbar-toggler {
     border: 0;
@@ -63,15 +69,66 @@
     font-size: 3rem;
   }
   /* About */
+  .about {
+    padding: 20px 0;
+  }
+
   .about .text .about-title {
     width: auto;
-    font-size: 1.1rem;
-    line-height: 25px;
+  }
+  .about .text .about-title h2:nth-child(1) {
+    margin: 0 auto;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+    width: auto;
+  }
+  .about .text .about-title h2:nth-child(2) {
+    font-size: 0.7rem;
+    line-height: 20px;
+    padding: 0px 20px;
+    margin: 0 auto;
+    width: auto;
   }
   .about .text .about-title .highlight-sm {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
+  }
+  .about .main .item {
+    padding: 20px 0;
   }
   .about .main .item .courses {
     overflow: scroll;
+  }
+  /* features */
+  .features .main .title {
+    margin-bottom: 60px;
+    text-align: center;
+  }
+  .features .main .item-1 {
+    padding: 30px 0;
+  }
+  .features .main .item-1 .highlight {
+    font-size: 2rem;
+  }
+  .features .main .item-1 .text {
+    padding-top: 35px;
+  }
+  .features .main .item-1 .text h2 {
+    font-size: 23px;
+    color: var(--mf-orange);
+  }
+  .features .main .item-1 .text p {
+    font-size: 10px;
+    padding: 0px 10px;
+    text-align: center;
+  }
+  .features .main .item-1 .text h4 {
+    font-size: 15px;
+  }
+  .features .main .item-1 .text h4::before {
+    content: "»";
+    color: var(--mf-orange);
+  }
+  .features .main .item-1 .text h4 i {
+    display: none;
   }
 }

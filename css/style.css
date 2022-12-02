@@ -14,7 +14,7 @@
   --mf-white: #fff;
   --mf-gray: #6c757d;
   --mf-gray-dark: #343a40;
-  --mf-gray-100: #f8f9fa;
+  --mf-gray-100: #f0f0f0;
   --mf-gray-200: #e9ecef;
   --mf-gray-300: #dee2e6;
   --mf-gray-400: #ced4da;
@@ -31,7 +31,7 @@
   --mf-danger: #dc3545;
   --mf-light: #f8f9fa;
   --mf-dark: #212529;
-  --mf-pink: #faf0f0;
+  --mf-pink: rgb(248, 230, 230);
   --mf-background-gradient: linear-gradient(
     122.33deg,
     #f39200 0%,
@@ -46,7 +46,6 @@
 /* common style */
 .highlight {
   color: var(--mf-orange);
-  font-size: 3.2rem;
 }
 /* Buttons style */
 .btn-gradient {
@@ -64,6 +63,7 @@
 /* Navbar style start*/
 .navbar {
   z-index: 999;
+  top: 25px;
 }
 .navbar .navbar-nav .nav-item {
   margin-right: 50px;
@@ -75,12 +75,13 @@
 /* ----------------- */
 /* Banner style start*/
 .banner {
-  height: 900px;
+  height: 1000px;
   background: var(--mf-pink);
 }
 .banner .shapes {
   width: 100%;
   height: 100%;
+  overflow: hidden;
 }
 .banner .main .showcase {
   padding-top: 140px;
@@ -96,6 +97,9 @@
 .banner .showcase .text .hero {
   padding: 0 0 10px;
   width: 100%;
+  font-size: 3.5rem;
+}
+.banner .showcase .text .hero .highlight {
   font-size: 3.5rem;
 }
 
@@ -116,15 +120,27 @@
 /* Banner style end*/
 /* ----------------- */
 /* About style start */
+.about {
+  padding: 100px 0;
+}
 .about .main .item {
-  padding: 80px 0 0;
+  padding: 50px 0;
 }
 .about .text .about-title {
-  width: 50%;
   margin: 0 auto;
-  padding: 80px 0px 0;
-  font-size: 2.5rem;
-  line-height: 60px;
+  padding-bottom: 40px;
+}
+.about .text .about-title h2:nth-child(1) {
+  font-size: 3rem;
+}
+.about .text .about-title h2:nth-child(2) {
+  width: 640px;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  line-height: 30px;
+}
+.about .text .about-title .highlight {
+  font-size: 1.5rem;
 }
 .about .text .video-1 {
   width: 200px;
@@ -155,4 +171,33 @@
   color: var(--mf-orange);
   font-size: 3rem;
   opacity: 0.8;
+}
+/* About style end*/
+/* ----------------- */
+/* features style start */
+.features .main .item-1 {
+  background: var(--mf-gray-100);
+  padding: 100px 0;
+}
+.features .main .item-1 .highlight {
+  font-size: 3.5rem;
+}
+.features .main .item-1 .text i {
+  color: var(--mf-orange);
+}
+.features .main .item-2 {
+  height: 500px;
+  width: 100%;
+  background: var(--mf-pink);
+}
+.features .main .title {
+  margin-bottom: 120px;
+}
+.features .main .item-2 .text {
+  height: 500px;
+}
+.features .main .item-2 .mockup {
+  left: 100%;
+  top: -73px;
+  transform: translateX(-100%);
 }
