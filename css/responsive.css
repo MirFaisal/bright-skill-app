@@ -9,9 +9,13 @@
     background: #fff;
     padding: 20px 0;
     top: 0;
+    position: static !important;
   }
   .navbar-toggler {
     border: 0;
+  }
+  .navbar-toggler i {
+    font-size: 1.5rem;
   }
   .navbar .navbar-toggler:focus:not(:focus-visible) {
     outline: 0;
@@ -25,18 +29,22 @@
   }
   /* Banner */
   .banner {
-    height: 100vh;
+    height: 70vh;
   }
   .banner .shapes {
     overflow: hidden;
   }
   .banner .shapes .item-1 {
-    top: 25%;
-    left: 30%;
+    top: 15%;
+    left: 15%;
+  }
+  .banner .shapes .item-4 {
+    top: 100%;
+    left: 119%;
   }
   .banner .shapes .item-5 {
-    top: 80%;
-    left: 80%;
+    top: 90%;
+    left: 90%;
   }
   .banner .shapes .item-6 {
     display: none;
@@ -47,8 +55,11 @@
   .banner .shapes .item-8 {
     display: none;
   }
+  .banner .shapes .item-3 .object-3 {
+    opacity: 0.8;
+  }
   .banner .main .showcase {
-    padding-top: 280px;
+    padding-top: 150px;
     height: 100%;
     overflow: hidden;
   }
@@ -129,10 +140,10 @@
     color: var(--mf-orange);
   }
   .features .main .item-1 .text p {
-	font-size: .7rem;
-	padding: 0px 10px;
-	text-align: center;
-}
+    font-size: 0.7rem;
+    padding: 0px 10px;
+    text-align: center;
+  }
   .features .main .item-1 .text h4 {
     font-size: 15px;
   }
