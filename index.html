@@ -23,10 +23,27 @@
     />
     <!-- AOS CSS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- SLICK SLIDER CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+      integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- ANIMATION CSS -->
     <link rel="stylesheet" href="./css/animation.css" />
     <!-- LOCAL CSS -->
     <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- RESPONSIVE CSS -->
     <link rel="stylesheet" href="./css/responsive.css" />
   </head>
   <body class="position-relative">
@@ -548,18 +565,98 @@
     <!---------------------
       Reviews section start
      ----------------------->
-    <section class="reviews">
+    <section id="reviews" class="reviews">
+      <!-- <div class="avatar bg-danger">
+        <div class="avatar-item-1">
+          <img src="./images/avatars/Avatars (1).png" alt="" />
+        </div>
+      </div> -->
       <div class="text">
-        <div class="title text-center">
+        <div class="title text-center highlight">
           <h2>1000s of reviews by happy student</h2>
         </div>
-        <div class="avatar">
-          <div class="item-1">
-            <img src="" alt="">
+      </div>
+
+      <div class="container">
+        <div class="main">
+          <div class="slider">
+            <div class="row slider-for">
+              <div class="col-12 slider-item text-center mx-auto">
+                <h3>Mir Faisal Ahmad</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Commodi maiores eligendi rem. Obcaecati earum assumenda
+                  laudantium aut officiis beatae fugit fugiat illo accusamus.
+                  Iusto corrupti sunt officia ipsam tenetur placeat?
+                </p>
+              </div>
+              <div class="col-12 slider-item text-center mx-auto">
+                <h3>Afsana Yesmin</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Commodi maiores eligendi rem. Obcaecati earum assumenda
+                  laudantium aut officiis beatae fugit fugiat illo accusamus.
+                  Iusto corrupti sunt officia ipsam tenetur placeat?
+                </p>
+              </div>
+              <div class="col-12 slider-item text-center mx-auto">
+                <h3>Alshahariar Mezba</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Commodi maiores eligendi rem. Obcaecati earum assumenda
+                  laudantium aut officiis beatae fugit fugiat illo accusamus.
+                  Iusto corrupti sunt officia ipsam tenetur placeat?
+                </p>
+              </div>
+              <div class="col-12 slider-item text-center mx-auto">
+                <h3>Anarul Korim Meem</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Commodi maiores eligendi rem. Obcaecati earum assumenda
+                  laudantium aut officiis beatae fugit fugiat illo accusamus.
+                  Iusto corrupti sunt officia ipsam tenetur placeat?
+                </p>
+              </div>
+              <div class="col-12 slider-item text-center mx-auto">
+                <h3>Israt Jahan Tamanna</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Commodi maiores eligendi rem. Obcaecati earum assumenda
+                  laudantium aut officiis beatae fugit fugiat illo accusamus.
+                  Iusto corrupti sunt officia ipsam tenetur placeat?
+                </p>
+              </div>
+              <div class="col-12 slider-item text-center mx-auto">
+                <h3>Priya</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Commodi maiores eligendi rem. Obcaecati earum assumenda
+                  laudantium aut officiis beatae fugit fugiat illo accusamus.
+                  Iusto corrupti sunt officia ipsam tenetur placeat?
+                </p>
+              </div>
+            </div>
+            <div class="row slider-nav">
+              <div class="col-4 slider-nav-item">
+                <img src="./images/avatars/Avatars (1).png" alt="" />
+              </div>
+              <div class="col-4 slider-nav-item">
+                <img src="./images/avatars/Avatars (2).png" alt="" />
+              </div>
+              <div class="col-4 slider-nav-item">
+                <img src="./images/avatars/Avatars (3).png" alt="" />
+              </div>
+              <div class="col-4 slider-nav-item">
+                <img src="./images/avatars/Avatars (4).png" alt="" />
+              </div>
+              <div class="col-4 slider-nav-item">
+                <img src="./images/avatars/Avatars (5).png" alt="" />
+              </div>
+              <div class="col-4 slider-nav-item">
+                <img src="./images/avatars/Avatars (6).png" alt="" />
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="container">
-          
         </div>
       </div>
     </section>
@@ -567,7 +664,8 @@
     <!-------------------
       Reviews  section end
      -------------------->
-
+    <!-- JQuary CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <!-- Font Awsome CDN -->
     <script
       src="https://kit.fontawesome.com/deb5ec3c82.js"
@@ -582,8 +680,13 @@
     <!-- AOS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/aos.js"></script>
-    <!-- <script>
-      AOS.init();
-    </script> -->
+    <!-- Slick slider -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+      integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./js/slick.js"></script>
   </body>
 </html>
