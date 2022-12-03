@@ -72,7 +72,6 @@
   /* About */
   .about {
     padding: 20px 0;
-    overflow-x: hidden;
   }
 
   .about .text .about-title {
@@ -96,6 +95,11 @@
   }
   .about .main .item {
     padding: 20px 0;
+    overflow-x: hidden;
+  }
+  .about .main .item p {
+    color: var(--mf-peragraph);
+    font-size: 0.7rem;
   }
   .about .main .item .courses {
     overflow: scroll;
@@ -125,10 +129,10 @@
     color: var(--mf-orange);
   }
   .features .main .item-1 .text p {
-    font-size: 10px;
-    padding: 0px 10px;
-    text-align: center;
-  }
+	font-size: .7rem;
+	padding: 0px 10px;
+	text-align: center;
+}
   .features .main .item-1 .text h4 {
     font-size: 15px;
   }
