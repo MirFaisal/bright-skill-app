@@ -118,16 +118,16 @@
                 </li>
               </ul>
             </li>
-            <div
-              class="d-flex justify-lg-content-end justify-content-center align-items-center"
-            >
-              <a
-                class="btn-gradient text-decoration-none rounded"
-                href="https://www.brightskills.com/signin"
-                >Login</a
-              >
-            </div>
           </ul>
+          <div
+            class="d-flex justify-lg-content-end justify-content-end align-items-center"
+          >
+            <a
+              class="btn-gradient text-decoration-none rounded"
+              href="https://www.brightskills.com/signin"
+              >Login</a
+            >
+          </div>
         </div>
       </nav>
     </header>
@@ -251,7 +251,7 @@
       </div>
       <div class="container">
         <div class="main">
-          <div class="item" data-aos="fade-right">
+          <div class="item" data-aos="fade-down-right" data-aos-duration="500">
             <div class="row flex-column-reverse flex-lg-row">
               <div
                 class="text col-lg-6 text-lg-start text-center d-flex flex-column justify-content-center"
@@ -313,7 +313,12 @@
               </div>
             </div>
           </div>
-          <div class="item" data-aos="fade-left">
+          <div
+            class="item"
+            data-aos="fade-up-left"
+            data-aos-offset="300"
+            data-aos-duration="500"
+          >
             <div class="row flex-lg-row-reverse flex-column-reverse">
               <div
                 class="text text-center text-lg-end col-lg-6 d-flex flex-column justify-content-center"
@@ -348,7 +353,12 @@
               </div>
             </div>
           </div>
-          <div class="item" data-aos="fade-right">
+          <div
+            class="item"
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-duration="500"
+          >
             <div class="row flex-column-reverse flex-lg-row">
               <div
                 class="text text-center text-lg-start col-lg-6 d-flex flex-column justify-content-center"
@@ -381,7 +391,12 @@
               </div>
             </div>
           </div>
-          <div class="item" data-aos="fade-left">
+          <div
+            class="item"
+            data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-duration="500"
+          >
             <div class="row flex-lg-row-reverse flex-column-reverse">
               <div
                 class="text text-center text-lg-end col-lg-6 d-flex flex-column justify-content-center"
@@ -411,7 +426,12 @@
               </div>
             </div>
           </div>
-          <div class="item pb-0" data-aos="fade-up">
+          <div
+            class="item pb-0"
+            data-aos="fade-up"
+            data-aos-offset="300"
+            data-aos-duration="500"
+          >
             <div class="row flex-column-reverse flex-lg-row">
               <div
                 class="text text-lg-start text-center col-lg-6 d-flex flex-column justify-content-center"
@@ -457,7 +477,7 @@
       <div class="main">
         <div class="item-1">
           <div class="text-center title">
-            <h2 class="highlight">Features of BrightSkills App</h2>
+            <h2>Features of <span class="highlight">BrightSkills</span> App</h2>
           </div>
           <div class="container">
             <div class="row">
@@ -465,6 +485,7 @@
                 class="col-lg-6 d-flex justify-content-lg-start"
                 data-aos="fade-down-right"
                 data-aos-duration="1000"
+                data-aos-offset="200"
               >
                 <img
                   class="img-fluid"
@@ -525,7 +546,8 @@
               <div
                 class="col-lg-8"
                 data-aos="fade-right"
-                data-aos-duration="500"
+                data-aos-duration="700"
+                data-aos-offset="300"
               >
                 <div
                   class="text d-flex flex-column align-items-lg-end justify-content-lg-center"
@@ -551,7 +573,8 @@
                 <img
                   class="w-75"
                   data-aos="zoom-out-left"
-                  data-aos-duration="500"
+                  data-aos-duration="700"
+                  data-aos-offset="350"
                   src="./images/mockup/f-mockup-2.png"
                   alt=""
                 />
@@ -578,8 +601,9 @@
     ></script>
     <!-- AOS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
+    <script src="./js/aos.js"></script>
+    <!-- <script>
       AOS.init();
-    </script>
+    </script> -->
   </body>
 </html>

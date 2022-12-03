@@ -186,6 +186,9 @@
 .features .main .item-1 p {
   color: var(--mf-peragraph);
 }
+.features .main .item-1 .title h2 {
+  font-size: 3.5rem;
+}
 .features .main .item-1 .title .highlight {
   font-size: 3.5rem;
 }
