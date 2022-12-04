@@ -1,11 +1,11 @@
 $(".slider-for").slick({
   slidesToShow: 1,
   slidesToScroll: 1,
-  arrows: false,
+  arrows: true,
   fade: true,
   asNavFor: ".slider-nav",
   autoplay: true,
-  autoplaySpeed: 3000,
+  autoplaySpeed: 2000,
 });
 $(".slider-nav").slick({
   centerMode: true,
@@ -13,8 +13,8 @@ $(".slider-nav").slick({
   slidesToScroll: 1,
   asNavFor: ".slider-for",
   dots: false,
-  centerMode: true,
   focusOnSelect: true,
+  arrows: false,
   autoplay: true,
-  autoplaySpeed: 3000,
+  autoplaySpeed: 2000,
 });
