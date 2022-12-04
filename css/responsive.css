@@ -2,7 +2,7 @@
   /* common */
   .btn-gradient {
     padding: 10px 15px;
-    font-size: 0.7rem !important;
+    font-size: 0.8rem !important;
   }
   /* Navbar */
   .navbar {
@@ -97,7 +97,7 @@
     width: auto;
   }
   .about .text .about-title h2:nth-child(2) {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     line-height: 20px;
     padding: 0px 20px;
     margin: 0 auto;
@@ -112,7 +112,7 @@
   }
   .about .main .item p {
     color: var(--mf-peragraph);
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
   .about .main .item .courses {
     overflow: scroll;
@@ -142,7 +142,7 @@
     color: var(--mf-orange);
   }
   .features .main .item-1 .text p {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     padding: 0px 10px;
     text-align: center;
   }
@@ -159,35 +159,35 @@
   .features .main .item-2 {
     display: none !important;
   }
-}
-/* rewiews style */
-.reviews {
-  padding: 20px 0;
-  overflow-x: hidden;
-}
-.reviews .main .slider .slider-nav .slider-nav-item {
-  width: 100%;
-  height: 200px;
-}
-.reviews .text .title {
-  padding: 5px 0;
-}
-.reviews .main .slider .slider-nav .slider-nav-item img {
-  width: 70%;
-  margin: 0 auto;
-}
-.reviews .main .slider .slider-for .slider-item p {
-  width: 80%;
-  margin: 0 auto;
-  font-size: 0.8rem;
-}
-.slick-next {
-  right: 10px;
-}
-.slick-prev {
-  left: 10px;
-}
-.slider-for .slick-next::before,
-.slider-for .slick-prev::before {
-  font-size: 20px;
+  /* rewiews style */
+  .reviews {
+    padding: 20px 0;
+    overflow-x: hidden;
+  }
+  .reviews .main .slider .slider-nav .slider-nav-item {
+    width: 100%;
+    height: 200px;
+  }
+  .reviews .text .title {
+    padding: 5px 0;
+  }
+  .reviews .main .slider .slider-nav .slider-nav-item img {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .reviews .main .slider .slider-for .slider-item p {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 0.8rem;
+  }
+  .slick-next {
+    right: 10px;
+  }
+  .slick-prev {
+    left: 10px;
+  }
+  .slider-for .slick-next::before,
+  .slider-for .slick-prev::before {
+    font-size: 20px;
+  }
 }
