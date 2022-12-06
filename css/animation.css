@@ -104,7 +104,7 @@
   animation: object8 50s alternate infinite;
   opacity: 0.9;
 }
-
+/* keyframes */
 @keyframes object1 {
   0% {
     transform: rotate(0deg) translateX(0px) translateY(0px);
@@ -225,89 +225,3 @@
     transform: rotate(360deg);
   }
 }
-/* reviews animation */
-/* .reviews .avatar .avatar-item-1 {
-  width: 200px;
-  height: 200px;
-  top: 15%;
-  left: 5%;
-  transform: translate(-50%, -50%);
-}
-.reviews .avatar .avatar-item-2 {
-  width: 200px;
-  height: 200px;
-  top: 15%;
-  left: 95%;
-  transform: translate(-50%, -50%);
-}
-.reviews .avatar .avatar-item-3 {
-  width: 200px;
-  height: 200px;
-  top: 45%;
-  left: 10%;
-  transform: translate(-50%, -50%);
-}
-.reviews .avatar .avatar-item-4 {
-  width: 200px;
-  height: 200px;
-  top: 45%;
-  left: 90%;
-  transform: translate(-50%, -50%);
-}
-
-.reviews .avatar .avatar-item-1 h2 {
-  color: white;
-  opacity: 0.5;
-  animation: text-pop-up-top 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite
-    alternate-reverse both;
-}
-.reviews .avatar .avatar-item-2 img {
-  width: 50%;
-  animation: vibrate-1 4s linear infinite both;
-}
-.reviews .avatar .avatar-item-3 img {
-  width: 50%;
-  animation: vibrate-1 6s linear infinite both;
-}
-.reviews .avatar .avatar-item-4 img {
-  width: 50%;
-  animation: vibrate-1 8s linear infinite both;
-}
-@keyframes vibrate-1 {
-  0% {
-    transform: translate(0);
-  }
-  20% {
-    transform: translate(-10px, 10px);
-  }
-  40% {
-    transform: translate(-10px, -10px);
-  }
-  60% {
-    transform: translate(10px, 10px);
-  }
-  80% {
-    transform: translate(10px, -10px);
-  }
-  100% {
-    transform: translate(0);
-  }
-}
-@keyframes text-pop-up-top {
-  0% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 50% 50%;
-    text-shadow: none;
-  }
-  100% {
-    -webkit-transform: translateY(-50px);
-    transform: translateY(-50px);
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 50% 50%;
-    text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc,
-      0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc,
-      0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
-  }
-} */

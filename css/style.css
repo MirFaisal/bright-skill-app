@@ -1,6 +1,10 @@
 /* Remote Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Poppins:wght@400;500;700;900&display=swap");
+/* Remote Fonts */
+
+/* Variables */
 :root {
+  /* colors */
   --mf-peragraph: #737373;
   --mf-blue: #0d6efd;
   --mf-indigo: #6610f2;
@@ -38,12 +42,26 @@
     #f39200 0%,
     #f83600 102.08%
   );
+  /* colors */
+  /* units */
+  --mf-font-esm: 0.7rem;
+  --mf-font-sm: 0.8rem;
+  --mf-font-md: 1rem;
+  --mf-font-rmd: 1.5rem;
+  --mf-font-xl: 3rem;
+  --mf-font-xxl: 3.5rem;
 }
+/* Variables */
+
+/* preset Stylrs */
 * {
   scroll-behavior: smooth;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
 }
+
+/* preset Stylrs */
+
 /* common style */
 .highlight {
   color: var(--mf-orange);
@@ -61,6 +79,9 @@
   background: none;
   color: var(--mf-red);
 }
+/* Buttons style */
+/* common style */
+
 /* Navbar style start*/
 .navbar {
   z-index: 999;
@@ -83,7 +104,7 @@
 }
 
 /* Navbar style end*/
-/* ----------------- */
+
 /* Banner style start*/
 .banner {
   height: 1000px;
@@ -105,34 +126,55 @@
 .banner .main .showcase .text {
   font-family: "Poppins", sans-serif;
 }
+.banner .main .showcase .text .brand-logo {
+  width: 40%;
+  padding: 0 0 20px;
+}
 .banner .showcase .text .hero {
   padding: 0 0 10px;
   width: 100%;
-  font-size: 3.5rem;
+  font-size: var(--mf-font-xxl);
 }
 .banner .showcase .text .hero .highlight {
-  font-size: 3.5rem;
+  font-size: var(--mf-font-xxl);
 }
 
 .banner .showcase .text .hero-motto {
   width: 100%;
   padding: 0 0 10px;
-  font-size: 1.5rem;
-}
-.banner .main .showcase .text .brand-logo {
-  width: 40%;
-  padding: 0 0 20px;
+  font-size: var(--mf-font-md);
 }
 .banner .main .showcase .text .gp-app-logo {
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
   width: 40%;
   padding: 0 0 20px;
 }
-
 /* Banner style end*/
-/* ----------------- */
+
 /* About style start */
 .about {
   padding: 100px 0;
+}
+.about .text .about-title {
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+.about .text .about-title .highlight {
+  font-size: var(--mf-font-md);
+}
+.about .text .about-title h2:nth-child(1) {
+  font-size: var(--mf-font-xl);
+}
+.about .text .about-title h2:nth-child(2) {
+  width: 640px;
+  margin: 0 auto;
+  font-size: var(--mf-font-md);
+  line-height: 30px;
 }
 .about .main .item {
   padding: 50px 0;
@@ -141,23 +183,13 @@
   color: var(--mf-peragraph);
 }
 .about .main .item img {
+  user-zoom: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
   width: 500px;
-}
-.about .text .about-title {
-  margin: 0 auto;
-  padding-bottom: 40px;
-}
-.about .text .about-title h2:nth-child(1) {
-  font-size: 3rem;
-}
-.about .text .about-title h2:nth-child(2) {
-  width: 640px;
-  margin: 0 auto;
-  font-size: 1.5rem;
-  line-height: 30px;
-}
-.about .text .about-title .highlight {
-  font-size: 1.5rem;
 }
 .about .text .video-1 {
   width: 200px;
@@ -183,31 +215,42 @@
   background-size: cover;
   border-radius: 20px;
 }
-
 .about .text i {
   color: var(--mf-orange);
-  font-size: 3rem;
+  font-size: var(--mf-font-xl);
   opacity: 0.8;
 }
 /* About style end*/
-/* ----------------- */
+
 /* features style start */
 .features {
   height: 180vh;
+}
+.features .main .title {
+  margin-bottom: 120px;
 }
 .features .main .item-1 {
   background: var(--mf-gray-100);
   padding: 100px 0;
 }
+.features .main .item-1 img {
+  user-zoom: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+.features .main .item-1 .title h2 {
+  font-size: var(--mf-font-xxl);
+}
+.features .main .item-1 .title .highlight {
+  font-size: var(--mf-font-xxl);
+}
 .features .main .item-1 p {
   color: var(--mf-peragraph);
 }
-.features .main .item-1 .title h2 {
-  font-size: 3.5rem;
-}
-.features .main .item-1 .title .highlight {
-  font-size: 3.5rem;
-}
+
 .features .main .item-1 .text i {
   color: var(--mf-orange);
 }
@@ -217,9 +260,15 @@
   background: url(../images/svg/bg-2.svg) no-repeat center;
   background-size: 100%;
 }
-.features .main .title {
-  margin-bottom: 120px;
+.features .main .item-2 img {
+  user-zoom: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
+
 .features .main .item-2 .text {
   height: 500px;
 }
@@ -231,7 +280,9 @@
   top: -73px;
   transform: translateX(-100%);
 }
-/* reviews section */
+/* features style end */
+
+/* reviews section start*/
 .reviews {
   height: 100vh;
   padding: 150px 0;
@@ -267,13 +318,14 @@
   font-family: slick;
   color: var(--mf-orange);
 }
+/* reviews section end */
 /* faq style */
 .faq {
   height: 100vh;
   background: url(../images/background/bg.svg) no-repeat right;
 }
 .faq .text .title {
-  font-size: 3rem;
+  font-size: var(--mf-font-xl);
   color: var(--mf-orange);
   padding: 100px 0;
 }
@@ -283,16 +335,44 @@
 .faq .main-accordian {
   height: 500px;
 }
-
+.accordion-button:focus {
+  outline: 0;
+  box-shadow: none;
+}
 .accordion-borderless .accordion-item .accordion-button:not(.collapsed) {
   background-color: var(--mf-pink);
   color: var(--mf-black);
   box-shadow: none;
 }
-.accordion-button:focus {
-  outline: 0;
-  box-shadow: none;
-}
 .accordion-borderless .accordion-item .accordion-button:hover {
   background: var(--mf-pink);
 }
+/* faq section end */
+
+/* footer */
+.footer {
+  padding: 50px 0;
+  background: linear-gradient(to bottom, #323232 0%, #3f3f3f 40%, #1c1c1c 150%),
+    linear-gradient(
+      to top,
+      rgba(255, 255, 255, 0.4) 0%,
+      rgba(0, 0, 0, 0.25) 200%
+    );
+  background-blend-mode: multiply;
+  color: var(--mf-gray-100) !important;
+}
+.footer img {
+  user-zoom: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+.footer .footer-link:hover {
+  color: var(--mf-orange);
+}
+.footer .copyright p {
+  font-size: var(--mf-font-esm);
+}
+/* footer end */

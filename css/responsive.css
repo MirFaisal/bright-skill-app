@@ -1,10 +1,22 @@
+:root {
+  --mf-font-esm: 0.7rem;
+  --mf-font-sm: 0.8rem;
+  --mf-font-md: 1rem;
+  --mf-font-rmd: 1.5rem;
+  --mf-font-sxl: 2rem;
+  --mf-font-xl: 2.5rem;
+  --mf-font-xxl: 3rem;
+  --mf-font-xxxl: 3.5rem;
+}
+/* for Ex-small start*/
 @media (min-width: 320px) and (max-width: 575.98px) {
   /* common */
   .btn-gradient {
     padding: 10px 15px;
-    font-size: 0.8rem !important;
+    font-size: var(--mf-font-sm) !important;
   }
-  /* Navbar */
+
+  /* Navbar start*/
   .navbar {
     background: #fff;
     padding: 20px 0;
@@ -15,7 +27,7 @@
     border: 0;
   }
   .navbar-toggler i {
-    font-size: 1.5rem;
+    font-size: var(--mf-font-rmd);
   }
   .navbar .navbar-toggler:focus:not(:focus-visible) {
     outline: 0;
@@ -27,7 +39,9 @@
   .navbar .navbar-nav .nav-item:last-child {
     margin: 0 auto;
   }
-  /* Banner */
+  /* navbar end */
+
+  /* Banner start*/
   .banner {
     height: 70vh;
   }
@@ -69,18 +83,22 @@
   .banner .main .showcase .text .brand-logo {
     display: none;
   }
+  .banner .showcase .text .hero {
+    font-size: var(--mf-font-sxl);
+  }
+  .banner .showcase .text .hero .highlight {
+    font-size: var(--mf-font-xl);
+  }
   .banner .main .showcase .text .gp-app-logo {
     width: 40%;
     padding: 40px 0;
   }
-  .banner .showcase .text .hero {
-    font-size: 2rem;
-  }
-  .banner .showcase .text .hero .highlight {
-    font-size: 2.5rem;
-  }
 
-  /* About */
+  .banner .showcase .text .hero .highlight {
+    font-size: var(--mf-font-xl);
+  }
+  /* banner end */
+  /* About start */
   .about {
     padding: 20px 0;
     overflow-x: hidden;
@@ -92,19 +110,19 @@
   }
   .about .text .about-title h2:nth-child(1) {
     margin: 0 auto;
-    font-size: 1.5rem;
+    font-size: var(--mf-font-rmd);
     padding-bottom: 10px;
     width: auto;
   }
   .about .text .about-title h2:nth-child(2) {
-    font-size: 0.8rem;
+    font-size: var(--mf-font-sm);
     line-height: 20px;
     padding: 0px 20px;
     margin: 0 auto;
     width: auto;
   }
   .about .text .about-title .highlight-sm {
-    font-size: 0.8rem;
+    font-size: var(--mf-font-sm);
   }
   .about .main .item {
     padding: 20px 0;
@@ -112,12 +130,17 @@
   }
   .about .main .item p {
     color: var(--mf-peragraph);
-    font-size: 0.8rem;
+    font-size: var(--mf-font-sm);
   }
   .about .main .item .courses {
     overflow: scroll;
   }
-  /* features */
+  /* about end */
+
+  /* features start*/
+  .features {
+    height: 125vh;
+  }
   .features .main {
     overflow-x: hidden;
   }
@@ -129,10 +152,10 @@
     padding: 30px 0;
   }
   .features .main .item-1 .title h2 {
-    font-size: 2rem;
+    font-size: var(--mf-font-sxl);
   }
   .features .main .item-1 .title .highlight {
-    font-size: 2rem;
+    font-size: var(--mf-font-sxl);
   }
   .features .main .item-1 .text {
     padding-top: 35px;
@@ -142,7 +165,7 @@
     color: var(--mf-orange);
   }
   .features .main .item-1 .text p {
-    font-size: 0.8rem;
+    font-size: var(--mf-font-sm);
     padding: 0px 10px;
     text-align: center;
   }
@@ -159,17 +182,20 @@
   .features .main .item-2 {
     display: none !important;
   }
+  /* featurs section end */
+
   /* rewiews style */
   .reviews {
+    height: 50vh;
     padding: 20px 0;
     overflow-x: hidden;
+  }
+  .reviews .text .title {
+    padding: 5px 0;
   }
   .reviews .main .slider .slider-nav .slider-nav-item {
     width: 100%;
     height: 200px;
-  }
-  .reviews .text .title {
-    padding: 5px 0;
   }
   .reviews .main .slider .slider-nav .slider-nav-item img {
     width: 70%;
@@ -178,7 +204,7 @@
   .reviews .main .slider .slider-for .slider-item p {
     width: 80%;
     margin: 0 auto;
-    font-size: 0.8rem;
+    font-size: var(--mf-font-sm);
   }
   .slick-next {
     right: 10px;
@@ -190,4 +216,21 @@
   .slider-for .slick-prev::before {
     font-size: 20px;
   }
+  /* faq start */
+  .faq .text .title {
+    font-size: var(--mf-font-sxl);
+    padding: 35px 0;
+  }
+  .faq .main {
+    padding: 0px 0;
+  }
+  .main-accordian .accordion-button {
+    font-size: var(--mf-font-sm);
+  }
+  .main-accordian .accordion-body ul li,
+  p {
+    font-size: var(--mf-font-esm);
+  }
+
+  /* for Ex-small start*/
 }

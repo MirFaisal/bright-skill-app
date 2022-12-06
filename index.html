@@ -8,27 +8,27 @@
       brightSkills App: Download brightSkills - Bright Skills is the Fastest
       Growing E-Learning platform of Bangladesh
     </title>
+    <!-- All LINKS -->
+
     <!-- Favicon -->
     <link
       rel="shortcut icon"
       href="https://www.brightskills.com/favicon.png"
       type="image/x-icon"
     />
-    <!-- MDB -->
+    <!-- Favicon -->
+
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- AOS CSS -->
+
+    <!-- MDB CSS-->
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.css"
       rel="stylesheet"
     />
-    <!--REMOTE CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-      crossorigin="anonymous"
-    />
+    <!-- MDB CSS-->
 
-    <!-- AOS CSS -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- SLICK SLIDER CSS -->
     <link
       rel="stylesheet"
@@ -37,6 +37,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
@@ -44,26 +45,46 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <!-- ANIMATION CSS -->
-    <link rel="stylesheet" href="./css/animation.css" />
-    <!-- LOCAL CSS -->
-    <link rel="stylesheet" href="./css/style.css" />
+    <!-- SLICK SLIDER CSS -->
 
-    <!-- RESPONSIVE CSS -->
+    <!--BOOTSTRAP CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <!--BOOTSTRAP CSS -->
+
+    <!-- ANIMATION CSS-LOCAL -->
+    <link rel="stylesheet" href="./css/animation.css" />
+    <!-- ANIMATION CSS-LOCAL-->
+
+    <!-- MAIN CSS-LOCAL -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- MAIN CSS-LOCAL -->
+
+    <!-- RESPONSIVE CSS-LOCAL -->
     <link rel="stylesheet" href="./css/responsive.css" />
+    <!-- RESPONSIVE CSS-LOCAL -->
+    <!-- All LINKS -->
   </head>
   <body data-bs-spy="scroll" data-bs-target="#navbar" class="position-relative">
     <!-------------- 
       Navbar Start
      --------------->
     <header id="navbar" class="navbar navbar-expand-lg w-100 position-fixed">
+      <!-- Navbar Container -->
       <nav class="container">
+        <!-- Navbar logo -->
         <a class="navbar-brand" href="./index.html">
           <img
             src="https://www.brightskills.com/_nuxt/img/logo.b577065.svg"
             alt=""
           />
         </a>
+        <!-- Navbar logo -->
+        <!-- Collaps button -->
         <button
           class="navbar-toggler"
           type="button"
@@ -75,6 +96,8 @@
         >
           <i class="fa-regular fa-chart-bar"></i>
         </button>
+        <!-- Collaps button -->
+        <!-- navbar links -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
             <li class="nav-item">
@@ -107,16 +130,22 @@
             >
           </div>
         </div>
+        <!-- navbar links -->
       </nav>
+      <!-- Navbar Container -->
     </header>
     <!-------------- 
         Navbar End
     --------------->
 
-    <!---------------
-      banner start
-     ---------------->
+    <!----------------------
+      banner section start
+     ---------------------->
     <section id="banner" class="banner position-relative">
+      <!-- 
+        //Shapes
+        different tyop of shapes for banner background animation 
+      -->
       <div class="shapes position-absolute">
         <div class="item-1 position-absolute">
           <img
@@ -175,12 +204,26 @@
           />
         </div>
       </div>
+      <!-- Shapes -->
+      <!-- 
+        //Main banner
+        All content related to the banner is contained within
+       -->
       <div class="main position-absolute w-100">
+        <!-- banner Container -->
         <div class="container">
+          <!-- 
+            //showcase
+            The showcase is divided into two sections, one for mockup and the other for information -->
           <div class="showcase row">
+            <!-- Mockup's part -->
             <div class="image col-lg-6 p-0 d-flex justify-content-start">
-              <img class="" src="./images/mockup/test.png" alt="" />
+              <picture>
+                <img class="" src="./images/mockup/test.png" alt="" />
+              </picture>
             </div>
+            <!-- Mockup's part -->
+            <!-- Banner's Information -->
             <div
               class="text col-lg-6 p-0 d-lg-flex flex-lg-column justify-content-lg-center align-items-lg-end text-center"
             >
@@ -199,25 +242,30 @@
                 >
                   <img
                     class="gp-app-logo"
-                    src="./images/logo/play-store-logo-.png"
+                    src="./images/logo/play-store-logo-d.png"
                     alt=""
                   />
                 </a>
               </div>
             </div>
+            <!-- Banner's Information -->
           </div>
+          <!-- showcase -->
         </div>
+        <!-- banner Container -->
       </div>
+      <!-- Main Banner -->
     </section>
-
     <!-------------
       banner end
      -------------->
 
     <!-------------
-      About Section
+      //About Section
+      This section provides all the main information of the app
      -------------->
-    <section class="about" id="about">
+    <main class="about" id="about">
+      <!-- section title -->
       <div class="text text-center">
         <div class="about-title">
           <h2>To about BrightSkills</h2>
@@ -227,8 +275,11 @@
           </h2>
         </div>
       </div>
+      <!-- section title -->
+      <!-- About section Container -->
       <div class="container">
         <div class="main">
+          <!-- A key information -->
           <div class="item" data-aos="fade-down-right" data-aos-duration="500">
             <div class="row flex-column-reverse flex-lg-row">
               <div
@@ -291,6 +342,7 @@
               </div>
             </div>
           </div>
+
           <div
             class="item"
             data-aos="fade-up-left"
@@ -331,6 +383,7 @@
               </div>
             </div>
           </div>
+
           <div
             class="item"
             data-aos="fade-right"
@@ -443,16 +496,23 @@
             </div>
           </div>
         </div>
+        <!-- A key information -->
       </div>
-    </section>
+      <!-- About section Container -->
+    </main>
     <!-------------------
       About section end
      -------------------->
     <!-------------------
-      Future section start
+      //Future section start
+      This section mentions the main features of BrightSkills Apps
      -------------------->
     <section id="features" class="features">
+      <!-- main part
+        The main section is divided into two parts
+       -->
       <div class="main">
+        <!-- First part -->
         <div class="item-1">
           <div class="text-center title">
             <h2>Features of <span class="highlight">BrightSkills</span> App</h2>
@@ -522,6 +582,8 @@
             </div>
           </div>
         </div>
+        <!-- First part -->
+        <!-- Second part -->
         <div class="item-2 d-lg-block">
           <div class="container position-relative">
             <div class="row">
@@ -564,45 +626,31 @@
             </div>
           </div>
         </div>
+        <!-- Second part -->
       </div>
+      <!-- main part-->
     </section>
     <!-------------------
       Future  section end
      -------------------->
     <!---------------------
       Reviews section start
+      This section contains user feedback of Brightskills App
      ----------------------->
     <section id="reviews" class="reviews">
-      <!-- <div class="avatar position-absolute w-100 h-100">
-        <div
-          class="avatar-item-1 position-absolute d-flex justify-content-center align-items-center"
-        >
-          <h2>awesome</h2>
-        </div>
-        <div
-          class="avatar-item-2 position-absolute d-flex justify-content-center align-items-center"
-        >
-          <h2>worth</h2>
-        </div>
-        <div
-          class="avatar-item-3 position-absolute d-flex justify-content-center align-items-center"
-        >
-          <img src="./images/avatars/Avatars (1).png" alt="" />
-        </div>
-        <div
-          class="avatar-item-4 position-absolute d-flex justify-content-center align-items-center"
-        >
-          <img src="./images/avatars/Avatars (1).png" alt="" />
-        </div>
-      </div> -->
-
+      <!-- reviews Container -->
       <div class="container">
+        <!-- reviews section title -->
         <div class="text">
           <div class="title text-center highlight">
             <h2>1000s of reviews by happy student</h2>
           </div>
         </div>
+        <!-- reviews section title -->
         <div class="main" data-aos="zoom-in">
+          <!-- slider section
+          //A third party slider function is used here which contains user images and user opinions
+          -->
           <div class="slider">
             <div class="row slider-nav">
               <div class="col-4 d-flex align-items-center slider-nav-item">
@@ -624,7 +672,7 @@
                 <img src="./images/avatars/Avatars (6).png" alt="" />
               </div>
             </div>
-            <div class="row slider-for">
+            <div class="d-flex slider-for">
               <div
                 class="col d-flex flex-column justify-content-center slider-item text-center mx-auto"
               >
@@ -661,7 +709,7 @@
               <div
                 class="col d-flex flex-column justify-content-center slider-item text-center mx-auto"
               >
-                <h3>Anarul Korim Meem</h3>
+                <h3>Anowarul Karim Meem</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Commodi maiores eligendi rem. Obcaecati earum assumenda
@@ -693,8 +741,10 @@
               </div>
             </div>
           </div>
+          <!-- slider section -->
         </div>
       </div>
+      <!-- reviews Container -->
     </section>
 
     <!-------------------
@@ -702,17 +752,26 @@
      -------------------->
     <!-------------------
       FAQ  section Start
+      //This section answers some common queries of new app users
      -------------------->
 
     <section id="faq" class="faq">
+      <!-- FAQ title -->
       <div class="text">
         <h2 class="title text-center">FAQ's</h2>
       </div>
+      <!-- FAQ title -->
+      <!-- FAQ container -->
       <div class="container">
+        <!-- 
+          main showcase
+          //This part is divided into two parts, one with illustrators and the other with Question's answers
+         -->
         <div class="main">
           <div class="row">
+            <!-- illustrators -->
             <div
-              class="col-lg-6 d-flex justify-content-center align-items-center"
+              class="col-lg-6 d-flex justify-content-center align-items-center col-12"
             >
               <picture>
                 <img
@@ -722,7 +781,9 @@
                 />
               </picture>
             </div>
-            <div class="col-lg-6">
+            <!-- illustrators -->
+            <!-- Question's answer -->
+            <div class="col-lg-6" data-aos="zoom-in-up">
               <div
                 class="main-accordian d-flex align-items-center justify-content-center w-100"
               >
@@ -749,7 +810,7 @@
                       aria-labelledby="flush-headingOneX"
                       data-mdb-parent="#accordionFlushExampleX"
                     >
-                      <div class="accordion-body">
+                      <div class="accordion-body text-muted">
                         <ul>
                           <li>
                             Each course designed with experienced mentors.
@@ -797,10 +858,13 @@
                       aria-labelledby="flush-headingTwoX"
                       data-mdb-parent="#accordionFlushExampleX"
                     >
-                      <div class="accordion-body">
-                        After enrolling in a course and successfully completing
-                        the lecture, quiz or exam, you will automatically
-                        receive the Accomplishment Certificate of that course.
+                      <div class="accordion-body text-muted">
+                        <p>
+                          After enrolling in a course and successfully
+                          completing the lecture, quiz or exam, you will
+                          automatically receive the Accomplishment Certificate
+                          of that course.
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -823,7 +887,7 @@
                       aria-labelledby="flush-headingThreeX"
                       data-mdb-parent="#accordionFlushExampleX"
                     >
-                      <div class="accordion-body">
+                      <div class="accordion-body text-muted">
                         <ul>
                           <li>
                             Go to the course you want to buy and click on the
@@ -857,12 +921,15 @@
                       data-mdb-parent="#accordionFlushExampleX"
                     >
                       <div class="accordion-body">
-                        Brightskills has a dedicated Facebook group for students
-                        <a
-                          href="https://www.facebook.com/groups/brightskillsofficial"
-                          >https://www.facebook.com/groups/brightskillsofficial.</a
-                        >
-                        Here you will get support for any problem.
+                        <p>
+                          Brightskills has a dedicated Facebook group for
+                          students
+                          <a
+                            href="https://www.facebook.com/groups/brightskillsofficial"
+                            >https://www.facebook.com/groups/brightskillsofficial.</a
+                          >
+                          Here you will get support for any problem.
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -885,58 +952,257 @@
                       aria-labelledby="flush-headingFiveX"
                       data-mdb-parent="#accordionFlushExampleX"
                     >
-                      <div class="accordion-body">
-                        In order to succeed in your career, you need to acquire
-                        skills in various subjects besides studies. Any skill
-                        will put you ahead of others in a career. In this age of
-                        technology, the more skilled one is, the more successful
-                        one is. You can call directly on this number
-                        (01990-779811 or 01990-779757) to get proper guidance
-                        regarding career development.
+                      <div class="accordion-body text-muted">
+                        <p>
+                          In order to succeed in your career, you need to
+                          acquire skills in various subjects besides studies.
+                          Any skill will put you ahead of others in a career. In
+                          this age of technology, the more skilled one is, the
+                          more successful one is. You can call directly on this
+                          number (01990-779811 or 01990-779757) to get proper
+                          guidance regarding career development.
+                        </p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+            <!-- Question's answer -->
           </div>
         </div>
       </div>
+      <!-- FAQ container -->
     </section>
 
     <!-------------------
       FAQ section end
      -------------------->
+    <!-------------------
+      Footer section start
+     // This section contains is basically described all the general information  about the course on the website and contains the Head office address
+     -------------------->
+    <footer
+      id="contact"
+      class="footer text-center text-lg-start text-muted pb-5"
+    >
+      <!-- overlay -->
+      <div class="overlay">
+        <!-- footer Container -->
+        <div class="container">
+          <!-- Section: Links  -->
+          <div class="links">
+            <div class="container text-center text-md-start mt-5">
+              <!-- Grid row -->
+              <div class="row mt-3">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                  <!-- Content -->
+                  <div class="logo pb-4">
+                    <img
+                      src="https://www.brightskills.com/_nuxt/img/logo-white.395dad6.svg"
+                      alt=""
+                    />
+                  </div>
+                  <p>
+                    BrightSkills is one of the best e-learning skill development
+                    platform in Bangladesh. We are committed to eliminating
+                    unemployment from the country and creating global human
+                    resources through skill development.
+                  </p>
+                  <!-- Right -->
+                  <div
+                    class="social-icon d-flex w-100 justify-content-center justify-content-lg-start"
+                  >
+                    <a href="" class="me-4 page-link footer-link">
+                      <i class="fa-brands fa-facebook"></i>
+                    </a>
+
+                    <a href="" class="me-4 page-link footer-link">
+                      <i class="fa-brands fa-youtube"></i>
+                    </a>
+
+                    <a href="" class="me-4 page-link footer-link">
+                      <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                  </div>
+                  <!-- Right -->
+                  <!-- Copyright -->
+                  <div
+                    class="copyright text-start py-4 d-flex w-100 justify-content-center justify-content-lg-start"
+                  >
+                    <p>© 2022 Copyright Brightskills. All rights reserved</p>
+                  </div>
+                  <!-- Copyright -->
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                  <!-- Links -->
+                  <h6 class="text-uppercase fw-bold mb-4">Course Category</h6>
+                  <p>
+                    <a href="#!" class="page-link footer-link"
+                      >3D visualization</a
+                    >
+                  </p>
+                  <p>
+                    <a href="#!" class="page-link footer-link"
+                      >Web programming</a
+                    >
+                  </p>
+                  <p>
+                    <a href="#!" class="page-link footer-link">Soft skill</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="page-link footer-link">design</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="page-link footer-link">Marketing</a>
+                  </p>
+                  <p>
+                    <a href="#" class="page-link footer-link"
+                      >Robotics Automation</a
+                    >
+                  </p>
+                  <p>
+                    <a href="#!" class="page-link footer-link"
+                      >Microsoft Office</a
+                    >
+                  </p>
+                  <p>
+                    <a href="#!" class="page-link footer-link"
+                      >language learning</a
+                    >
+                  </p>
+                  <p>
+                    <a href="#!" class="page-link footer-link">
+                      Logistics and Supply Chain</a
+                    >
+                  </p>
+                  <p>
+                    <a href="#!" class="page-link footer-link">Multimedia</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="page-link footer-link"
+                      >ICT Olympiad Bangladesh</a
+                    >
+                  </p>
+                  <p>
+                    <a href="#!" class="page-link footer-link"
+                      >Computer Networking</a
+                    >
+                  </p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                  <!-- Links -->
+                  <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
+                  <p>
+                    <a href="#!" class="page-link footer-link"
+                      >Find the certificate</a
+                    >
+                  </p>
+                  <p>
+                    <a href="#!" class="page-link footer-link"> Blog</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="page-link footer-link"
+                      >Student feedback</a
+                    >
+                  </p>
+                  <p>
+                    <a href="#!" class="page-link footer-link">Certification</a>
+                  </p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                  <!-- Links -->
+                  <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                  <div class="d-flex flex-lg-row flex-column">
+                    <i class="fas fa-home me-lg-3 text-secondary pt-1 pb-3"></i>
+                    <p>
+                      Head Office: Mumtaz Plaza (4th Floor) House # 07, Road #
+                      04 Dhanmondi, Dhaka-1205
+                    </p>
+                  </div>
+                  <div class="d-flex flex-lg-row flex-column">
+                    <i class="fas fa-envelope pt-1 pb-3 me-lf-3 text-secondary"></i>
+                    <p>info@example.com</p>
+                  </div>
+                  <div class="d-flex flex-lg-row flex-column">
+                    <i class="fas fa-phone pt-1 pb-3 me-lf-3 text-secondary"></i>
+                    <div>
+                      <p class="m-0">+880 1777308777</p>
+                      <p class="m-0">+880 1624666000</p>
+                      <p class="m-0">+880 1624888444</p>
+                      <p class="m-0">+880 1966177177</p>
+                      <p class="m-0">+880 1625555444</p>
+                      <p class="m-0">+880 1990779900</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Grid column -->
+              </div>
+              <!-- Grid row -->
+            </div>
+          </div>
+          <!-- Section: Links  -->
+        </div>
+        <!-- footer Container -->
+      </div>
+      <!-- overlay -->
+    </footer>
+    <!-------------------
+      Footer section end
+     -------------------->
+
+    <!-- All CDN LINKS -->
     <!-- JQuary CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <!-- Font Awsome CDN -->
-    <script
-      src="https://kit.fontawesome.com/deb5ec3c82.js"
-      crossorigin="anonymous"
-    ></script>
-    <!-- JavaScript Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-      crossorigin="anonymous"
-    ></script>
-    <!-- AOS -->
+    <!-- JQuary CDN -->
+    <!-- AOS CDN-->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/aos.js"></script>
-    <!-- Slick slider -->
+    <!-- AOS CDN-->
+    <!-- Slick slider CDN -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
       integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+    <!-- Slick slider CDN -->
+    <!-- slick slider Confi -->
     <script src="./js/slick.js"></script>
-    <!-- MDB -->
+    <!-- slick slider Confi -->
+    <!-- navbar config for active class-->
+    <script src="./js/navbar.js"></script>
+    <!-- navbar config for active class-->
+    <!-- Font Awsome CDN -->
+    <script
+      src="https://kit.fontawesome.com/deb5ec3c82.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Font Awsome CDN -->
+    <!-- MDB CDN-->
     <script
       type="text/javascript"
       src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.js"
     ></script>
-    <!-- navbar -->
-    <script src="./js/navbar.js"></script>
+    <!-- MDB CDN-->
+    <!-- JavaScript Bundle with Popper for Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <!-- JavaScript Bundle with Popper for Bootstrap -->
+
+    <!-- All CDN LINKS -->
   </body>
 </html>
