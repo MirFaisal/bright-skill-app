@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="1440" height="560" preserveAspectRatio="none" viewBox="0 0 1440 560">
+    <g mask="url(&quot;#SvgjsMask1024&quot;)" fill="none">
+        <path d="M581.79 128.88 a100.07 100.07 0 1 0 200.14 0 a100.07 100.07 0 1 0 -200.14 0z" fill="rgba(255, 103, 103, 0.4)" class="triangle-float3"></path>
+        <path d="M1354.261753209742 475.4668214449713L1406.5931186322096 619.6735308110449 1494.572665940143 518.4646391063923z" fill="rgba(255, 103, 103, 0.4)" class="triangle-float2"></path>
+        <path d="M1257.0217091251077 58.95140404836383L1297.8721247293145 117.29184366809866 1364.9575763568134 26.84600045192105z" fill="rgba(255, 103, 103, 0.4)" class="triangle-float1"></path>
+        <path d="M442.5605026667911 302.87572073802585L551.1340191708398 281.77116703579964 530.0294654686136 173.19765053175092 421.45594896456487 194.30220423397714z" fill="rgba(255, 103, 103, 0.4)" class="triangle-float2"></path>
+        <path d="M1175.05 295.12 a124.04 124.04 0 1 0 248.08 0 a124.04 124.04 0 1 0 -248.08 0z" fill="rgba(255, 103, 103, 0.4)" class="triangle-float2"></path>
+    </g>
+    <defs>
+        <mask id="SvgjsMask1024">
+            <rect width="1440" height="560" fill="#ffffff"></rect>
+        </mask>
+        <style>
+            @keyframes float1 {
+                0%{transform: translate(0, 0)}
+                50%{transform: translate(-10px, 0)}
+                100%{transform: translate(0, 0)}
+            }
+
+            .triangle-float1 {
+                animation: float1 5s infinite;
+            }
+
+            @keyframes float2 {
+                0%{transform: translate(0, 0)}
+                50%{transform: translate(-5px, -5px)}
+                100%{transform: translate(0, 0)}
+            }
+
+            .triangle-float2 {
+                animation: float2 4s infinite;
+            }
+
+            @keyframes float3 {
+                0%{transform: translate(0, 0)}
+                50%{transform: translate(0, -10px)}
+                100%{transform: translate(0, 0)}
+            }
+
+            .triangle-float3 {
+                animation: float3 6s infinite;
+            }
+        </style>
+    </defs>
+</svg>

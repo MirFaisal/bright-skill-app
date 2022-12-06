@@ -64,7 +64,9 @@
 /* Navbar style start*/
 .navbar {
   z-index: 999;
-  top: 25px;
+  padding: 12px 0;
+  box-shadow: none;
+  background: var(--mf-pink);
 }
 .navbar .navbar-nav .nav-item {
   margin-right: 50px;
@@ -72,6 +74,14 @@
 .navbar .navbar-nav .nav-item:last-child {
   margin-right: 0px;
 }
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+  color: var(--mf-orange);
+  border-bottom: 1px solid;
+  border-color: var(--mf-orange);
+  transition: all 0.4s linear;
+}
+
 /* Navbar style end*/
 /* ----------------- */
 /* Banner style start*/
@@ -182,6 +192,9 @@
 /* About style end*/
 /* ----------------- */
 /* features style start */
+.features {
+  height: 180vh;
+}
 .features .main .item-1 {
   background: var(--mf-gray-100);
   padding: 100px 0;
@@ -201,7 +214,8 @@
 .features .main .item-2 {
   height: 500px;
   width: 100%;
-  background: var(--mf-pink);
+  background: url(../images/svg/bg-2.svg) no-repeat center;
+  background-size: 100%;
 }
 .features .main .title {
   margin-bottom: 120px;
@@ -219,6 +233,7 @@
 }
 /* reviews section */
 .reviews {
+  height: 100vh;
   padding: 150px 0;
 }
 .reviews .text .title {
@@ -251,4 +266,33 @@
   font-size: 30px;
   font-family: slick;
   color: var(--mf-orange);
+}
+/* faq style */
+.faq {
+  height: 100vh;
+  background: url(../images/background/bg.svg) no-repeat right;
+}
+.faq .text .title {
+  font-size: 3rem;
+  color: var(--mf-orange);
+  padding: 100px 0;
+}
+.faq .main {
+  padding: 100px 0;
+}
+.faq .main-accordian {
+  height: 500px;
+}
+
+.accordion-borderless .accordion-item .accordion-button:not(.collapsed) {
+  background-color: var(--mf-pink);
+  color: var(--mf-black);
+  box-shadow: none;
+}
+.accordion-button:focus {
+  outline: 0;
+  box-shadow: none;
+}
+.accordion-borderless .accordion-item .accordion-button:hover {
+  background: var(--mf-pink);
 }

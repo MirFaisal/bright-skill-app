@@ -14,6 +14,11 @@
       href="https://www.brightskills.com/favicon.png"
       type="image/x-icon"
     />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.css"
+      rel="stylesheet"
+    />
     <!--REMOTE CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
@@ -21,6 +26,7 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
+
     <!-- AOS CSS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- SLICK SLIDER CSS -->
@@ -46,11 +52,11 @@
     <!-- RESPONSIVE CSS -->
     <link rel="stylesheet" href="./css/responsive.css" />
   </head>
-  <body class="position-relative">
+  <body data-bs-spy="scroll" data-bs-target="#navbar" class="position-relative">
     <!-------------- 
       Navbar Start
      --------------->
-    <header class="navbar navbar-expand-lg w-100 position-absolute">
+    <header id="navbar" class="navbar navbar-expand-lg w-100 position-fixed">
       <nav class="container">
         <a class="navbar-brand" href="./index.html">
           <img
@@ -72,22 +78,23 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link px-0" href="#banner">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link px-0" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#features">Features</a>
+              <a class="nav-link px-0" href="#features">Features</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#reviews">Reviews</a>
+              <a class="nav-link px-0" href="#reviews">Reviews</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link px-0" href="#faq">FAQ</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link">FAQ</a>
+              <a class="nav-link px-0" href="#contact">Contact</a>
             </li>
           </ul>
           <div
@@ -109,7 +116,7 @@
     <!---------------
       banner start
      ---------------->
-    <section class="banner position-relative">
+    <section id="banner" class="banner position-relative">
       <div class="shapes position-absolute">
         <div class="item-1 position-absolute">
           <img
@@ -693,6 +700,213 @@
     <!-------------------
       Reviews  section end
      -------------------->
+    <!-------------------
+      FAQ  section Start
+     -------------------->
+
+    <section id="faq" class="faq">
+      <div class="text">
+        <h2 class="title text-center">FAQ's</h2>
+      </div>
+      <div class="container">
+        <div class="main">
+          <div class="row">
+            <div
+              class="col-lg-6 d-flex justify-content-center align-items-center"
+            >
+              <picture>
+                <img
+                  class="img-fluid"
+                  src="./images/Illustrations/faq.png"
+                  alt=""
+                />
+              </picture>
+            </div>
+            <div class="col-lg-6">
+              <div
+                class="main-accordian d-flex align-items-center justify-content-center w-100"
+              >
+                <div
+                  class="accordion accordion-borderless w-100"
+                  id="accordionFlushExampleX"
+                >
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOneX">
+                      <button
+                        class="accordion-button"
+                        type="button"
+                        data-mdb-toggle="collapse"
+                        data-mdb-target="#flush-collapseOneX"
+                        aria-expanded="true"
+                        aria-controls="flush-collapseOneX"
+                      >
+                        Why do you take courses from brightskills?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseOneX"
+                      class="accordion-collapse collapse show"
+                      aria-labelledby="flush-headingOneX"
+                      data-mdb-parent="#accordionFlushExampleX"
+                    >
+                      <div class="accordion-body">
+                        <ul>
+                          <li>
+                            Each course designed with experienced mentors.
+                          </li>
+                          <li>
+                            Each recorded video course created following the
+                            updated curriculum.
+                          </li>
+                          <li>Job oriented course modules.</li>
+                          <li>
+                            Every course related topic is explained simply and
+                            beautifully.
+                          </li>
+                          <li>
+                            Almost every course has great hands-on practice
+                            projects.
+                          </li>
+                          <li>There are multiple exams to test yourself.</li>
+                          <li>
+                            Each lecture is very informative and interactive at
+                            the same time, which is helpful in keeping your
+                            attention.
+                          </li>
+                          <li>Every course in career development</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwoX">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-mdb-toggle="collapse"
+                        data-mdb-target="#flush-collapseTwoX"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseTwoX"
+                      >
+                        Will I get a certificate at the end of the course?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseTwoX"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="flush-headingTwoX"
+                      data-mdb-parent="#accordionFlushExampleX"
+                    >
+                      <div class="accordion-body">
+                        After enrolling in a course and successfully completing
+                        the lecture, quiz or exam, you will automatically
+                        receive the Accomplishment Certificate of that course.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThreeX">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-mdb-toggle="collapse"
+                        data-mdb-target="#flush-collapseThreeX"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseThreeX"
+                      >
+                        What to do if you want to buy a course?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseThreeX"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="flush-headingThreeX"
+                      data-mdb-parent="#accordionFlushExampleX"
+                    >
+                      <div class="accordion-body">
+                        <ul>
+                          <li>
+                            Go to the course you want to buy and click on the
+                            Enroll Now button, it will go to Cart.
+                          </li>
+                          <li>
+                            After that you can easily buy the course by going to
+                            Cart and following the next instructions.
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFourX">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-mdb-toggle="collapse"
+                        data-mdb-target="#flush-collapseFourX"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseFourX"
+                      >
+                        Live mentor support will be provided?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseFourX"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="flush-headingFourX"
+                      data-mdb-parent="#accordionFlushExampleX"
+                    >
+                      <div class="accordion-body">
+                        Brightskills has a dedicated Facebook group for students
+                        <a
+                          href="https://www.facebook.com/groups/brightskillsofficial"
+                          >https://www.facebook.com/groups/brightskillsofficial.</a
+                        >
+                        Here you will get support for any problem.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFiveX">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-mdb-toggle="collapse"
+                        data-mdb-target="#flush-collapseFiveX"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseFiveX"
+                      >
+                        What should I do to succeed in my career?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseFiveX"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="flush-headingFiveX"
+                      data-mdb-parent="#accordionFlushExampleX"
+                    >
+                      <div class="accordion-body">
+                        In order to succeed in your career, you need to acquire
+                        skills in various subjects besides studies. Any skill
+                        will put you ahead of others in a career. In this age of
+                        technology, the more skilled one is, the more successful
+                        one is. You can call directly on this number
+                        (01990-779811 or 01990-779757) to get proper guidance
+                        regarding career development.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------
+      FAQ section end
+     -------------------->
     <!-- JQuary CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <!-- Font Awsome CDN -->
@@ -717,7 +931,12 @@
       referrerpolicy="no-referrer"
     ></script>
     <script src="./js/slick.js"></script>
-    <!-- Navbar -->
+    <!-- MDB -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.js"
+    ></script>
+    <!-- navbar -->
     <script src="./js/navbar.js"></script>
   </body>
 </html>
