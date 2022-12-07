@@ -104,7 +104,10 @@
     overflow-x: hidden;
     overflow-y: hidden;
   }
-
+  .about .about-bg-1,
+  .about .about-bg-1 {
+    display: none;
+  }
   .about .text .about-title {
     width: auto;
   }
@@ -190,7 +193,10 @@
     padding: 20px 0;
     overflow-x: hidden;
     overflow-y: hidden;
+    background: url(../images/svg/reviews-bg.svg) no-repeat repeat;
+    background-size: auto;
   }
+
   .reviews .text .title {
     padding: 5px 0;
   }
