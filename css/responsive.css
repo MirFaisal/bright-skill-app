@@ -139,7 +139,7 @@
 
   /* features start*/
   .features {
-    height: 125vh;
+    height: 136vh;
   }
   .features .main {
     overflow-x: hidden;
@@ -185,11 +185,11 @@
   /* featurs section end */
 
   /* rewiews style */
-  .reviews {
-    height: 50vh;
-    padding: 20px 0;
-    overflow-x: hidden;
-  }
+.reviews {
+	height: 65vh;
+	padding: 20px 0;
+	overflow-x: hidden;
+}
   .reviews .text .title {
     padding: 5px 0;
   }
