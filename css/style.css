@@ -301,6 +301,7 @@
 }
 
 .reviews .main .slider .slider-nav .slider-nav-item img {
+  border-radius: 50%;
   width: 50%;
   margin: 0 auto;
 }
