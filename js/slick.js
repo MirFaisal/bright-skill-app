@@ -5,7 +5,7 @@ $(".slider-for").slick({
   fade: true,
   asNavFor: ".slider-nav",
   autoplay: true,
-  autoplaySpeed: 2000,
+  autoplaySpeed: 3500,
   responsive: [
     {
       breakpoint: 575.98,
@@ -29,7 +29,7 @@ $(".slider-nav").slick({
   focusOnSelect: true,
   arrows: false,
   autoplay: true,
-  autoplaySpeed: 2000,
+  autoplaySpeed: 3500,
 }
 
 );
