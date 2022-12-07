@@ -139,7 +139,7 @@
 
   /* features start*/
   .features {
-    height: 136vh;
+    height: 100%;
   }
   .features .main {
     overflow-x: hidden;
@@ -185,11 +185,12 @@
   /* featurs section end */
 
   /* rewiews style */
-.reviews {
-	height: 65vh;
-	padding: 20px 0;
-	overflow-x: hidden;
-}
+  .reviews {
+    height: 100%;
+    padding: 20px 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
   .reviews .text .title {
     padding: 5px 0;
   }
@@ -231,6 +232,12 @@
   p {
     font-size: var(--mf-font-esm);
   }
-
+  /* footer */
+  .footer {
+    margin-top: 180px;
+  }
+  .footer .copyright p {
+    margin-top: 0px;
+  }
   /* for Ex-small start*/
 }

@@ -71,7 +71,6 @@
   padding: 10px 25px;
   background: var(--mf-background-gradient);
   color: var(--mf-white);
-  border: 1px solid #f83600;
   transition: all 0.5s ease-in;
 }
 .btn-gradient:hover {
@@ -145,7 +144,7 @@
   font-size: var(--mf-font-md);
 }
 .banner .main .showcase .text .gp-app-logo {
-  user-drag: none;
+  user-zoom: none;
   user-select: none;
   -moz-user-select: none;
   -webkit-user-drag: none;
@@ -223,13 +222,11 @@
 /* About style end*/
 
 /* features style start */
-.features {
-  height: 180vh;
-}
 .features .main .title {
   margin-bottom: 120px;
 }
 .features .main .item-1 {
+  height: 100%;
   background: var(--mf-gray-100);
   padding: 100px 0;
 }
@@ -361,6 +358,9 @@
   background-blend-mode: multiply;
   color: var(--mf-gray-100) !important;
 }
+.footer.brand-info p {
+  color: var(--mf-gray-300);
+}
 .footer img {
   user-zoom: none;
   user-select: none;
@@ -372,7 +372,15 @@
 .footer .footer-link:hover {
   color: var(--mf-orange);
 }
+.footer .footer-link {
+  color: var(--mf-gray-300);
+}
+
 .footer .copyright p {
+  margin-top: 150px;
   font-size: var(--mf-font-esm);
+}
+.footer .contact p {
+  color: var(--mf-gray-300);
 }
 /* footer end */
