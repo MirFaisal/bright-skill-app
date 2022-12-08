@@ -344,15 +344,15 @@ body::-webkit-scrollbar-track {
 
 /* reviews section start*/
 .reviews {
-  margin: 30px 0 100px;
+  margin: 30px 0 30px;
   background: url(../images/svg/reviews-bg.svg) no-repeat center;
   background-size: cover;
 }
 .reviews .text .title {
-  padding: 100px 0 50px;
+  padding: 50px 0 50px;
 }
 .reviews .text h6 {
-  padding: 25px 0;
+    padding: 10px 0;
 }
 
 .reviews .main .reviews-slider .slider-for {
@@ -407,10 +407,10 @@ body::-webkit-scrollbar-track {
 .faq .text .title {
   font-size: var(--mf-font-xl);
   color: var(--mf-orange);
-  padding: 75px 0 10px;
+  padding: 25px 0 25px;
 }
 .faq .text h6 {
-  padding: 15px 0 40px;
+    padding: 15px 0 15px;
 }
 .faq .main {
   padding: 50px 0 50px;
