@@ -126,7 +126,7 @@ body::-webkit-scrollbar-track {
 
 /* Banner style start*/
 .banner {
-  height: 1000px;
+  height: 100vh;
   /* background: var(--mf-pink); */
   background: url(../images/svg/banner-bg.svg) no-repeat center;
   background-size: cover;
@@ -137,7 +137,7 @@ body::-webkit-scrollbar-track {
   overflow: hidden;
 }
 .banner .main .showcase {
-  padding-top: 140px;
+  padding-top: 10%;
   height: 100%;
   overflow: hidden;
 }
@@ -246,7 +246,7 @@ body::-webkit-scrollbar-track {
 
 /* features style start */
 .features .main .title {
-  margin-bottom: 120px;
+  margin-bottom: 65px;
 }
 .features .main .item-1 {
   height: 100%;
@@ -271,6 +271,9 @@ body::-webkit-scrollbar-track {
   color: var(--mf-peragraph);
 }
 
+.features .main .item-1 .text h2 {
+  margin-top: 100px;
+}
 .features .main .item-1 .text i {
   color: var(--mf-orange);
 }
@@ -279,6 +282,7 @@ body::-webkit-scrollbar-track {
   width: 100%;
   background: url(../images/svg/feature-bg.svg) no-repeat center;
   background-size: 100%;
+  margin-bottom: 80px;
 }
 .features .main .item-2 img {
   user-zoom: none;
@@ -309,16 +313,20 @@ body::-webkit-scrollbar-track {
   overflow: hidden;
 }
 .install .download-counte {
-  padding: 80px 0 40px;
+  padding: 45px 0 5px;
 }
 .install .download-counte h2 {
   font-size: var(--mf-font-xxl);
+}
+.install .download-counte h6 {
+  padding: 15px 0;
+  font-size: var(--mf-font-md);
 }
 .install .download-counte .highlight {
   font-size: var(--mf-font-xxl);
 }
 .install .mockup .img {
-  height: 800px;
+  height: 735px;
 }
 .install .main-process .slider .slick-next,
 .install .main-process .slider .slick-prev {
@@ -328,20 +336,23 @@ body::-webkit-scrollbar-track {
 
 /* reviews section start*/
 .reviews {
-  height: 75vh;
+  height: 80vh;
   margin: 30px 0 100px;
   background: url(../images/svg/reviews-bg.svg) no-repeat center;
   background-size: cover;
 }
 .reviews .text .title {
-  padding: 40px 0;
+  padding: 100px 0 50px;
+}
+.reviews .text h6 {
+  padding: 25px 0;
 }
 
-.reviews .main .reviews-slider .slider-for .slider-item {
+.reviews .main .reviews-slider .slider-for {
   display: flex;
   align-items: center;
   width: 100%;
-  height: 300px;
+  height: 200px;
 }
 .reviews .main .reviews-slider .slider-for .slider-item p {
   position: relative;
@@ -390,7 +401,10 @@ body::-webkit-scrollbar-track {
 .faq .text .title {
   font-size: var(--mf-font-xl);
   color: var(--mf-orange);
-  padding: 100px 0 40px;
+  padding: 75px 0 10px;
+}
+.faq .text h6 {
+  padding: 15px 0 40px;
 }
 .faq .main {
   padding: 50px 0 50px;
