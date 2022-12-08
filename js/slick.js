@@ -1,3 +1,20 @@
+$(".slider").slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  fade: true,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  responsive: [
+    {
+      breakpoint: 575.98,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        fade: true,
+      },
+    },
+  ],
+});
 $(".slider-for").slick({
   slidesToShow: 1,
   slidesToScroll: 1,
@@ -15,9 +32,6 @@ $(".slider-for").slick({
         fade: true,
       },
     },
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
   ],
 });
 $(".slider-nav").slick({
@@ -30,7 +44,5 @@ $(".slider-nav").slick({
   arrows: false,
   autoplay: true,
   autoplaySpeed: 3500,
-}
-
-);
-
+});
+//
