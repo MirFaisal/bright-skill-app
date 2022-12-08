@@ -104,18 +104,16 @@ body::-webkit-scrollbar-track {
 }
 .navbar .navbar-nav .nav-item {
   margin-right: 50px;
+  border-bottom: 1px solid transparent;
 }
 .navbar .navbar-nav .nav-item .nav-link:hover {
   color: var(--mf-orange) !important;
-  border-bottom: 1px solid;
-  border-color: var(--mf-orange);
-  transition: all 0.4s linear;
 }
+
 .navbar .navbar-nav .nav-item:last-child {
   margin-right: 0px;
 }
-.navbar-nav .nav-link.active,
-.navbar-nav .show > .nav-link {
+.navbar-nav .nav-link.active {
   color: var(--mf-orange);
   border-bottom: 1px solid;
   border-color: var(--mf-orange);
@@ -135,7 +133,7 @@ body::-webkit-scrollbar-track {
   overflow: hidden;
 }
 .banner .main .showcase {
-  padding-top: 10%;
+  padding: 10% 0;
   height: 100%;
   overflow: hidden;
 }
@@ -179,6 +177,18 @@ body::-webkit-scrollbar-track {
 /* About style start */
 .about {
   padding: 100px 0;
+}
+.about::after {
+  position: absolute;
+  right: 0;
+  top: 700px;
+  content: url(../images/shape/shape_1.png);
+}
+.about::before {
+  position: absolute;
+  left: 0;
+  top: 100px;
+  content: url(../images/shape/shape_2.png);
 }
 
 .about .text .about-title {
