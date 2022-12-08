@@ -1,19 +1,8 @@
 $(".slider").slick({
   slidesToShow: 1,
-  slidesToScroll: 1,
   fade: true,
   autoplay: true,
   autoplaySpeed: 2000,
-  responsive: [
-    {
-      breakpoint: 575.98,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        fade: true,
-      },
-    },
-  ],
 });
 $(".slider-for").slick({
   slidesToShow: 1,
