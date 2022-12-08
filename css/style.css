@@ -142,7 +142,7 @@ body::-webkit-scrollbar-track {
   overflow: hidden;
 }
 .banner .main .showcase .image img {
-  width: 100%;
+  width: 65%;
 }
 .banner .main .showcase .text {
   font-family: "Poppins", sans-serif;
@@ -297,8 +297,8 @@ body::-webkit-scrollbar-track {
 }
 .features .main .item-2 .mockup {
   left: 100%;
-  top: -73px;
-  transform: translateX(-100%);
+  top: 50%;
+  transform: translate(-100%, -50%);
 }
 /* features style end */
 /* install style start */
