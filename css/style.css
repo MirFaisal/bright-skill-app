@@ -98,7 +98,7 @@ body::-webkit-scrollbar-track {
 /* Navbar style start*/
 .navbar {
   z-index: 999;
-  padding: 12px 0;
+  padding: 15px 0;
   box-shadow: none;
   background: var(--mf-pink);
 }
@@ -126,8 +126,6 @@ body::-webkit-scrollbar-track {
 
 /* Banner style start*/
 .banner {
-  height: 100vh;
-  /* background: var(--mf-pink); */
   background: url(../images/svg/banner-bg.svg) no-repeat center;
   background-size: cover;
 }
