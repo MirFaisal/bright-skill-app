@@ -9,7 +9,7 @@
   --mf-font-xxxl: 3.5rem;
 }
 /* for Ex-small start*/
-@media (min-width: 320px) and (max-width: 748.98px) {
+@media (min-width: 320px) and (max-width: 575.98px) {
   /* common */
   .btn-gradient {
     padding: 10px 15px;
@@ -227,8 +227,8 @@
     font-size: var(--mf-font-md);
   }
   .reviews .main .reviews-slider .slider-nav .slider-nav-item {
-    height: 150px;
-  }
+	height: 200px;
+}
   .reviews .main .reviews-slider .slider-for .slider-item p {
     position: relative;
     width: 80%;
