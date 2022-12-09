@@ -114,7 +114,6 @@ p {
   background: var(--mf-pink);
 }
 .navbar .navbar-nav .nav-item {
-  margin-right: 50px;
   border-bottom: 1px solid transparent;
 }
 .navbar .navbar-nav .nav-item .nav-link:hover {
@@ -187,18 +186,19 @@ p {
 /* About style start */
 .about {
   padding: 60px 0;
+  overflow: hidden;
 }
 .about::after {
+  content: url(../images/shape/shape_1.png);
   position: absolute;
   right: 0;
   top: 700px;
-  content: url(../images/shape/shape_1.png);
 }
 .about::before {
+  content: url(../images/shape/shape_2.png);
   position: absolute;
   left: 0;
   top: 100px;
-  content: url(../images/shape/shape_2.png);
 }
 
 .about .text .about-title {
@@ -272,6 +272,7 @@ p {
   margin-bottom: 65px;
 }
 .features .main .item-1 {
+  overflow-x: hidden;
   background: var(--mf-gray-100);
   padding: 100px 0;
 }
@@ -306,10 +307,9 @@ p {
   color: var(--mf-orange);
 }
 .features .main .item-2 {
-  height: 500px;
   width: 100%;
-  background: url(../images/svg/feature-bg.svg) no-repeat top;
-  background-size: 100%;
+  background: url(../images/svg/feature-bg.svg) no-repeat center;
+  background-size: cover;
   margin-bottom: 0px;
 }
 .features .main .item-2 img {
