@@ -272,7 +272,7 @@ p {
   margin-bottom: 65px;
 }
 .features .main .item-1 {
-  overflow: hidden;
+  overflow-x: hidden;
   background: var(--mf-gray-100);
   padding: 100px 0;
 }
