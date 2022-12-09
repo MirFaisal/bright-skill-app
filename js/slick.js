@@ -5,6 +5,7 @@ $(".slider").slick({
   fade: true,
   autoplay: true,
   autoplaySpeed: 2000,
+  lazyLoad:'progressive'
 });
 $(".slider-for").slick({
   slidesToShow: 1,
