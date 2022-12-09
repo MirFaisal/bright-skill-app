@@ -33,5 +33,15 @@ $(".slider-nav").slick({
   arrows: false,
   autoplay: true,
   autoplaySpeed: 3500,
+  responsive: [
+    {
+      breakpoint: 575.98,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        fade: true,
+      },
+    },
+  ],
 });
 //

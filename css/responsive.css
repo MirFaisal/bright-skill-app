@@ -9,7 +9,7 @@
   --mf-font-xxxl: 3.5rem;
 }
 /* for Ex-small start*/
-@media (min-width: 320px) and (max-width: 575.98px) {
+@media (min-width: 320px) and (max-width: 748.98px) {
   /* common */
   .btn-gradient {
     padding: 10px 15px;
@@ -104,25 +104,27 @@
     overflow-x: hidden;
     overflow-y: hidden;
   }
-  .about .about-bg-1,
-  .about .about-bg-2 {
+
+  .about::after {
+    display: none;
+  }
+  .about::before {
     display: none;
   }
   .about .text .about-title {
     width: auto;
   }
-  .about .text .about-title h2:nth-child(1) {
+  .about .text .about-title h2 {
     margin: 0 auto;
     font-size: var(--mf-font-rmd);
     padding-bottom: 10px;
     width: auto;
   }
-  .about .text .about-title h2:nth-child(2) {
-    font-size: var(--mf-font-sm);
-    line-height: 20px;
-    padding: 0px 20px;
-    margin: 0 auto;
+  .about .text .about-title p {
     width: auto;
+    margin: 0 auto;
+    font-size: var(--mf-font-md);
+    line-height: 20px;
   }
   .about .text .about-title .highlight-sm {
     font-size: var(--mf-font-sm);
@@ -134,6 +136,7 @@
   .about .main .item p {
     color: var(--mf-peragraph);
     font-size: var(--mf-font-sm);
+    padding: 15px 0;
   }
   .about .main .item .courses {
     overflow: scroll;
@@ -155,6 +158,8 @@
     padding: 30px 0;
   }
   .features .main .item-1 .title h2 {
+    padding: 0 5px;
+    width: auto;
     font-size: var(--mf-font-sxl);
   }
   .features .main .item-1 .title .highlight {
@@ -186,8 +191,21 @@
     display: none !important;
   }
   /* featurs section end */
-
- 
+  /* install start*/
+  .install {
+    padding: 15px 0;
+  }
+  .install .download-counte h2 {
+    font-size: var(--mf-font-rmd);
+  }
+  .install .download-counte .highlight {
+    font-size: var(--mf-font-rmd);
+  }
+  .install .download-counte h6 {
+    padding: 5px 0;
+    font-size: var(--mf-font-sm);
+  }
+  /* install ens*/
 
   /* rewiews style */
   .reviews {
@@ -202,13 +220,26 @@
   .reviews .text .title {
     padding: 5px 0;
   }
-  .reviews .main .slider .slider-nav .slider-nav-item {
-    width: 100%;
-    height: 200px;
+  .reviews .main .reviews-slider .slider-for {
+    height: 90px;
+  }
+  .reviews .main .reviews-slider .slider-for h3 {
+    font-size: var(--mf-font-md);
+  }
+  .reviews .main .reviews-slider .slider-nav .slider-nav-item {
+    height: 150px;
+  }
+  .reviews .main .reviews-slider .slider-for .slider-item p {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
   }
   .reviews .main .slider .slider-nav .slider-nav-item img {
     width: 70%;
     margin: 0 auto;
+  }
+  .reviews .main .reviews-slider .slider-nav .slider-nav-item img {
+    width: 35%;
   }
   .reviews .main .slider .slider-for .slider-item p {
     width: 80%;
@@ -226,9 +257,12 @@
     font-size: 20px;
   }
   /* faq start */
+  .faq {
+    padding: 30px 0;
+  }
   .faq .text .title {
     font-size: var(--mf-font-sxl);
-    padding: 35px 0;
+    padding: 10px 0;
   }
   .faq .main {
     padding: 0px 0;
@@ -242,7 +276,7 @@
   }
   /* footer */
   .footer {
-    margin-top: 180px;
+    margin-top: 0px;
   }
   .footer .copyright p {
     margin-top: 0px;

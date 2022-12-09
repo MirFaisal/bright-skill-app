@@ -79,6 +79,16 @@ body::-webkit-scrollbar-track {
 .highlight {
   color: var(--mf-orange);
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
 /* Buttons style */
 .btn-gradient {
   padding: 10px 25px;
@@ -170,13 +180,12 @@ body::-webkit-scrollbar-track {
   -webkit-user-select: none;
   -ms-user-select: none;
   width: 40%;
-  padding: 0 0 20px;
 }
 /* Banner style end*/
 
 /* About style start */
 .about {
-  padding: 100px 0;
+  padding: 60px 0;
 }
 .about::after {
   position: absolute;
@@ -193,15 +202,16 @@ body::-webkit-scrollbar-track {
 
 .about .text .about-title {
   margin: 0 auto;
-  padding-bottom: 40px;
+  padding: 40px 0;
 }
 .about .text .about-title .highlight {
   font-size: var(--mf-font-md);
 }
-.about .text .about-title h2:nth-child(1) {
+.about .text .about-title h2 {
+  padding: 10px 0;
   font-size: var(--mf-font-xl);
 }
-.about .text .about-title h2:nth-child(2) {
+.about .text .about-title p {
   width: 640px;
   margin: 0 auto;
   font-size: var(--mf-font-md);
@@ -209,6 +219,9 @@ body::-webkit-scrollbar-track {
 }
 .about .main .item {
   padding: 50px 0;
+}
+.about .main .item h5 {
+  padding: 15px 0;
 }
 .about .main .item p {
   color: var(--mf-peragraph);
@@ -279,8 +292,14 @@ body::-webkit-scrollbar-track {
   color: var(--mf-peragraph);
 }
 
+.features .main .item-1 .text {
+  padding: 50px 0;
+}
 .features .main .item-1 .text h2 {
-  margin-top: 100px;
+  padding: 20px 0;
+}
+.features .main .item-1 .text .feature-name {
+  padding: 10px 0;
 }
 .features .main .item-1 .text i {
   color: var(--mf-orange);
@@ -290,7 +309,7 @@ body::-webkit-scrollbar-track {
   width: 100%;
   background: url(../images/svg/feature-bg.svg) no-repeat top;
   background-size: 100%;
-  margin-bottom: 80px;
+  margin-bottom: 0px;
 }
 .features .main .item-2 img {
   user-zoom: none;
@@ -304,7 +323,11 @@ body::-webkit-scrollbar-track {
 .features .main .item-2 .text {
   height: 500px;
 }
+.features .main .item-2 .text h2 {
+  padding: 10px 0;
+}
 .features .main .item-2 .text P {
+  padding: 10px 0;
   color: var(--mf-peragraph);
 }
 .features .main .item-2 .mockup {
@@ -315,13 +338,13 @@ body::-webkit-scrollbar-track {
 /* features style end */
 /* install style start */
 .install {
-  padding: 50px 0;
+  padding: 100px 0;
   background: url(../images/svg/install-bg.svg) no-repeat center;
   background-size: cover;
   overflow: hidden;
 }
 .install .download-counte {
-  padding: 45px 0 5px;
+  padding: 20px 0;
 }
 .install .download-counte h2 {
   font-size: var(--mf-font-xxl);
@@ -344,15 +367,19 @@ body::-webkit-scrollbar-track {
 
 /* reviews section start*/
 .reviews {
-  margin: 30px 0 30px;
+  padding: 30px 0;
   background: url(../images/svg/reviews-bg.svg) no-repeat center;
   background-size: cover;
 }
 .reviews .text .title {
   padding: 50px 0 50px;
 }
+.reviews .text .title h2 .highlight{
+  font-size: var(--mf-font-xl);
+  
+}
 .reviews .text h6 {
-    padding: 10px 0;
+  padding: 10px 0;
 }
 
 .reviews .main .reviews-slider .slider-for {
@@ -363,7 +390,7 @@ body::-webkit-scrollbar-track {
 }
 .reviews .main .reviews-slider .slider-for .slider-item p {
   position: relative;
-  width: 40%;
+  width: 50%;
   margin: 0 auto;
 }
 .reviews .main .reviews-slider .slider-for .slider-item p::before {
@@ -402,6 +429,7 @@ body::-webkit-scrollbar-track {
 /* reviews section end */
 /* faq style */
 .faq {
+  padding: 50px 0;
   background: url(../images/background/bg.svg) no-repeat right;
 }
 .faq .text .title {
@@ -410,7 +438,7 @@ body::-webkit-scrollbar-track {
   padding: 25px 0 25px;
 }
 .faq .text h6 {
-    padding: 15px 0 15px;
+  padding: 15px 0 15px;
 }
 .faq .main {
   padding: 50px 0 50px;
