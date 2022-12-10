@@ -18,10 +18,10 @@
 
   /* Navbar start*/
   .navbar {
+    position: fixed !important;
     background: #fff;
     padding: 20px 0;
     top: 0;
-    position: static !important;
   }
   .navbar-toggler {
     border: 0;
@@ -194,6 +194,7 @@
   /* install start*/
   .main .install {
     padding: 15px 0;
+    overflow: hidden;
   }
   .main .install.download-counte h2 {
     font-size: var(--mf-font-rmd);
