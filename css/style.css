@@ -133,46 +133,46 @@ p {
 /* Navbar style end*/
 
 /* Banner style start*/
-.banner {
+.main .banner {
   background: url(../images/svg/banner-bg.svg) no-repeat center;
   background-size: cover;
 }
-.banner .shapes {
+.main .banner .shapes {
   width: 100%;
   height: 100%;
   overflow: hidden;
 }
-.banner .main .showcase {
+.main .banner .main .showcase {
   padding: 10% 0;
   height: 100%;
   overflow: hidden;
 }
-.banner .main .showcase .image img {
+.main .banner .main .showcase .image img {
   width: 65%;
   animation: vibrate-1 5s linear infinite alternate-reverse both;
 }
-.banner .main .showcase .text {
+.main .banner .main .showcase .text {
   font-family: "Poppins", sans-serif;
 }
-.banner .main .showcase .text .brand-logo {
+.main .banner .main .showcase .text .brand-logo {
   width: 40%;
   padding: 0 0 20px;
 }
-.banner .showcase .text .hero {
+.main .banner .showcase .text .hero {
   padding: 0 0 10px;
   width: 100%;
   font-size: var(--mf-font-xxl);
 }
-.banner .showcase .text .hero .highlight {
+.main .banner .showcase .text .hero .highlight {
   font-size: var(--mf-font-xxl);
 }
 
-.banner .showcase .text .hero-motto {
+.main .banner .showcase .text .hero-motto {
   width: 100%;
   padding: 0 0 10px;
   font-size: var(--mf-font-md);
 }
-.banner .main .showcase .text .gp-app-logo {
+.main .banner .main .showcase .text .gp-app-logo {
   user-zoom: none;
   user-select: none;
   -moz-user-select: none;
@@ -184,50 +184,50 @@ p {
 /* Banner style end*/
 
 /* About style start */
-.about {
+.main .about {
   padding: 60px 0;
   overflow: hidden;
 }
-.about::after {
+.main .about::after {
   content: url(../images/shape/shape_1.png);
   position: absolute;
   right: 0;
   top: 700px;
 }
-.about::before {
+.main .about::before {
   content: url(../images/shape/shape_2.png);
   position: absolute;
   left: 0;
   top: 100px;
 }
 
-.about .text .about-title {
+.main .about .text .main .about-title {
   margin: 0 auto;
   padding: 40px 0;
 }
-.about .text .about-title .highlight {
+.main .about .text .main .about-title .highlight {
   font-size: var(--mf-font-md);
 }
-.about .text .about-title h2 {
+.main .about .text .main .about-title h2 {
   padding: 10px 0;
   font-size: var(--mf-font-xl);
 }
-.about .text .about-title p {
+.main .about .text .main .about-title p {
   width: 640px;
   margin: 0 auto;
   font-size: var(--mf-font-md);
   line-height: 30px;
 }
-.about .main .item {
+.main .about .main .item {
   padding: 50px 0;
 }
-.about .main .item h5 {
+.main .about .main .item h5 {
   padding: 15px 0;
 }
-.about .main .item p {
+.main .about .main .item p {
   color: var(--mf-peragraph);
 }
-.about .main .item img {
+.main .about .main .item img {
   user-zoom: none;
   user-select: none;
   -moz-user-select: none;
@@ -236,7 +236,7 @@ p {
   -ms-user-select: none;
   width: 500px;
 }
-.about .text .video-1 {
+.main .about .text .video-1 {
   width: 200px;
   height: 130px;
   background: url("https://panel.brightskills.com/media/course/Earn%20More%20Learn%20Motion%20Graphics/Motion-Graphics.jpg")
@@ -244,7 +244,7 @@ p {
   background-size: cover;
   border-radius: 20px;
 }
-.about .text .video-2 {
+.main .about .text .video-2 {
   width: 200px;
   height: 130px;
   background: url("https://panel.brightskills.com/media/course/Freelancing%20with%20WordPress%20Theme%20Customization/558-X-1.JPG")
@@ -252,7 +252,7 @@ p {
   background-size: cover;
   border-radius: 20px;
 }
-.about .text .video-3 {
+.main .about .text .video-3 {
   width: 200px;
   height: 130px;
   background: url("https://panel.brightskills.com/media/course/MS%20Excel%20Beginner%20to%20Advanced/558-X-364_Course-Banner_ii-of-MS-Excel-Beginner-to-Advanced.jpg")
@@ -260,7 +260,7 @@ p {
   background-size: cover;
   border-radius: 20px;
 }
-.about .text i {
+.main .about .text i {
   color: var(--mf-orange);
   font-size: var(--mf-font-xl);
   opacity: 0.8;
@@ -268,14 +268,14 @@ p {
 /* About style end*/
 
 /* features style start */
-.features .main .title {
+.main .features .main .title {
   margin-bottom: 65px;
 }
-.features .main .item-1 {
+.main .features .main .item-1 {
   background: var(--mf-gray-100);
   padding: 100px 0;
 }
-.features .main .item-1 img {
+.main .features .main .item-1 img {
   user-zoom: none;
   user-select: none;
   -moz-user-select: none;
@@ -283,35 +283,35 @@ p {
   -webkit-user-select: none;
   -ms-user-select: none;
 }
-.features .main .item-1 .title h2 {
+.main .features .main .item-1 .title h2 {
   font-size: var(--mf-font-xxl);
 }
-.features .main .item-1 .title .highlight {
+.main .features .main .item-1 .title .highlight {
   font-size: var(--mf-font-xxl);
 }
-.features .main .item-1 p {
+.main .features .main .item-1 p {
   color: var(--mf-peragraph);
 }
 
-.features .main .item-1 .text {
+.main .features .main .item-1 .text {
   padding: 50px 0;
 }
-.features .main .item-1 .text h2 {
+.main .features .main .item-1 .text h2 {
   padding: 20px 0;
 }
-.features .main .item-1 .text .feature-name {
+.main .features .main .item-1 .text .feature-name {
   padding: 10px 0;
 }
-.features .main .item-1 .text i {
+.main .features .main .item-1 .text i {
   color: var(--mf-orange);
 }
-.features .main .item-2 {
+.main .features .main .item-2 {
   width: 100%;
   background: url(../images/svg/feature-bg.svg) no-repeat center;
   background-size: cover;
   margin-bottom: 0px;
 }
-.features .main .item-2 img {
+.main .features .main .item-2 img {
   user-zoom: none;
   user-select: none;
   -moz-user-select: none;
@@ -320,101 +320,101 @@ p {
   -ms-user-select: none;
 }
 
-.features .main .item-2 .text {
+.main .features .main .item-2 .text {
   height: 500px;
 }
-.features .main .item-2 .text h2 {
+.main .features .main .item-2 .text h2 {
   padding: 10px 0;
 }
-.features .main .item-2 .text P {
+.main .features .main .item-2 .text P {
   padding: 10px 0;
   color: var(--mf-peragraph);
 }
-.features .main .item-2 .mockup {
+.main .features .main .item-2 .mockup {
   left: 100%;
   top: 50%;
   transform: translate(-100%, -50%);
 }
 /* features style end */
 /* install style start */
-.install {
+.main .install {
   padding: 100px 0;
   background: url(../images/svg/install-bg.svg) no-repeat center;
   background-size: cover;
   overflow: hidden;
 }
-.install .download-counte {
+.main .install .download-counte {
   padding: 20px 0;
 }
-.install .download-counte h2 {
+.main .install .download-counte h2 {
   font-size: var(--mf-font-xxl);
 }
-.install .download-counte h6 {
+.main .install .download-counte h6 {
   padding: 15px 0;
   font-size: var(--mf-font-md);
 }
-.install .download-counte .highlight {
+.main .install .download-counte .highlight {
   font-size: var(--mf-font-xxl);
 }
-.install .mockup .img {
+.main .install .mockup .img {
   height: 735px;
 }
-.install .main-process .slider .slick-next,
-.install .main-process .slider .slick-prev {
+.main .install .main-process .slider .slick-next,
+.main .install .main-process .slider .slick-prev {
   display: none !important;
 }
 /* install style end */
 
 /* reviews section start*/
-.reviews {
+.main .reviews {
   padding: 30px 0;
   background: url(../images/svg/reviews-bg.svg) no-repeat center;
   background-size: cover;
 }
-.reviews .text .title {
+.main .reviews .text .title {
   padding: 50px 0 50px;
 }
-.reviews .text .title h2 .highlight {
+.main .reviews .text .title h2 .highlight {
   font-size: var(--mf-font-xl);
 }
-.reviews .text h6 {
+.main .reviews .text h6 {
   padding: 10px 0;
 }
 
-.reviews .main .reviews-slider .slider-for {
+.main .reviews .main .reviews-slider .slider-for {
   display: flex;
   align-items: center;
   width: 100%;
   height: 200px;
 }
-.reviews .main .reviews-slider .slider-for .slider-item p {
+.main .reviews .main .reviews-slider .slider-for .slider-item p {
   position: relative;
   width: 50%;
   margin: 0 auto;
 }
-.reviews .main .reviews-slider .slider-for .slider-item p::before {
+.main .reviews .main .reviews-slider .slider-for .slider-item p::before {
   position: absolute;
   top: -9px;
   left: -60px;
   content: url(../images/shape/start.png);
 }
-.reviews .main .reviews-slider .slider-for .slider-item p::after {
+.main .reviews .main .reviews-slider .slider-for .slider-item p::after {
   position: absolute;
   top: 50px;
   right: -60px;
   content: url(../images/shape/end.png);
 }
-.reviews .main .reviews-slider .slider-nav .slider-nav-item {
+.main .reviews .main .reviews-slider .slider-nav .slider-nav-item {
   width: 100%;
   height: 400px;
 }
 
-.reviews .main .reviews-slider .slider-nav .slider-nav-item img {
+.main .reviews .main .reviews-slider .slider-nav .slider-nav-item img {
   border-radius: 50%;
   width: 50%;
   margin: 0 auto;
 }
-.reviews .main .reviews-slider .slider-nav .slick-center img {
+.main .reviews .main .reviews-slider .slider-nav .slick-center img {
   transform: scale(1.5);
   transition: all 0.6s;
 }
