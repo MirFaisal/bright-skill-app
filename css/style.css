@@ -268,10 +268,12 @@ p {
 /* About style end*/
 
 /* features style start */
+
 .main .features .main .title {
   margin-bottom: 65px;
 }
 .main .features .main .item-1 {
+  overflow-x: hidden;
   background: var(--mf-gray-100);
   padding: 100px 0;
 }
