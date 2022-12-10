@@ -313,14 +313,6 @@ p {
   background-size: cover;
   margin-bottom: 0px;
 }
-.main .features .main .item-2 img {
-  user-zoom: none;
-  user-select: none;
-  -moz-user-select: none;
-  -webkit-user-drag: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-}
 
 .main .features .main .item-2 .text {
   height: 500px;
@@ -337,6 +329,15 @@ p {
   top: 50%;
   transform: translate(-100%, -50%);
 }
+.main .features .main .item-2 .mockup img {
+  user-zoom: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
 /* features style end */
 /* install style start */
 .main .install {
