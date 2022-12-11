@@ -397,14 +397,14 @@ p {
 }
 .main .reviews .main .reviews-slider .slider-for .slider-item p::before {
   position: absolute;
-  top: -9px;
-  left: -60px;
+  top: 0px;
+  left: -10%;
   content: url(../images/shape/start.png);
 }
 .main .reviews .main .reviews-slider .slider-for .slider-item p::after {
   position: absolute;
-  top: 50px;
-  right: -60px;
+  top: 0px;
+  right: -10%;
   content: url(../images/shape/end.png);
 }
 .main .reviews .main .reviews-slider .slider-nav .slider-nav-item {
@@ -424,9 +424,13 @@ p {
 /* this design for slicks button */
 .slider-for .slick-next::before,
 .slider-for .slick-prev::before {
-  font-size: 30px;
+  font-size: 50px;
   font-family: slick;
   color: var(--mf-orange);
+}
+.slider-for .slick-next,
+.slider-for .slick-prev {
+  top: 0%;
 }
 /* reviews section end */
 /* faq style */

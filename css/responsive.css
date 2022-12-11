@@ -235,6 +235,14 @@
     width: 80%;
     margin: 0 auto;
   }
+  .main .reviews .main .reviews-slider .slider-for .slider-item p::before {
+    display: none;
+    content: "";
+  }
+  .main .reviews .main .reviews-slider .slider-for .slider-item p::after {
+    display: none;
+    content: "";
+  }
   .main .reviews .main .slider .slider-nav .slider-nav-item img {
     width: 70%;
     margin: 0 auto;
@@ -251,11 +259,15 @@
     right: 10px;
   }
   .slick-prev {
-    left: 10px;
+    left: 0px;
   }
   .slider-for .slick-next::before,
   .slider-for .slick-prev::before {
-    font-size: 20px;
+    font-size: 30px;
+  }
+  .slider-for .slick-next,
+  .slider-for .slick-prev {
+    top: -45%;
   }
   /* faq start */
   .main .faq {
