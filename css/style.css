@@ -280,7 +280,7 @@ p {
 .main .features .main .item-1 {
   overflow-x: hidden;
   background: var(--mf-gray-100);
-  padding: 100px 0;
+  padding: 75px 0;
 }
 .main .features .main .item-1 img {
   user-zoom: none;
@@ -290,6 +290,21 @@ p {
   -webkit-user-select: none;
   -ms-user-select: none;
 }
+.main .features .main .item-1 .mockup-1 {
+  width: 100%;
+}
+.main .features .main .item-1 .mockup-1 img {
+  width: 62%;
+}
+.main .features .main .item-1 .mockup-2 {
+  top: 16%;
+  left: 40%;
+  width: 100%;
+}
+.main .features .main .item-1 .mockup-2 img {
+  width: 50%;
+}
+
 .main .features .main .item-1 .title h2 {
   font-size: var(--mf-font-xxl);
 }
