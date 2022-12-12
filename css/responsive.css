@@ -224,6 +224,9 @@
   .main .reviews .main .reviews-slider .slider-for {
     height: 90px;
   }
+  .main .reviews .text .title h2 .highlight {
+    font-size: var(--mf-font-rmd);
+  }
   .main .reviews .main .reviews-slider .slider-for h3 {
     font-size: var(--mf-font-md);
   }

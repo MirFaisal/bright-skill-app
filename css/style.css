@@ -234,7 +234,7 @@ p {
   -webkit-user-drag: none;
   -webkit-user-select: none;
   -ms-user-select: none;
-  width: 500px;
+  width: 100%;
 }
 .main .about .text .video-1 {
   width: 200px;
