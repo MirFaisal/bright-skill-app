@@ -201,22 +201,27 @@ p {
   top: 100px;
 }
 
-.main .about .text .main .about-title {
+.main .about .text .about-title {
   margin: 0 auto;
   padding: 40px 0;
 }
-.main .about .text .main .about-title .highlight {
-  font-size: var(--mf-font-md);
-}
-.main .about .text .main .about-title h2 {
+
+.main .about .text .about-title h2 {
   padding: 10px 0;
-  font-size: var(--mf-font-xl);
+  font-size: var(--mf-font-xxl);
 }
-.main .about .text .main .about-title p {
+.main .about .text .about-title h2 .highlight {
+  padding: 10px 0;
+  font-size: var(--mf-font-xxl);
+}
+.main .about .text .about-title p {
   width: 640px;
   margin: 0 auto;
   font-size: var(--mf-font-md);
   line-height: 30px;
+}
+.main .about .text .about-title p .highlight-sm {
+  font-size: var(--mf-font-md);
 }
 .main .about .main .item {
   padding: 50px 0;
