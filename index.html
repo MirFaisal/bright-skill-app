@@ -61,7 +61,7 @@
     <!-------------- 
       Navbar Start
      --------------->
-    <header id="navbar" class="navbar navbar-expand-lg w-100 position-fixed">
+    <header id="navbar" class="navbar navbar-expand-lg w-100 position-sticky">
       <!-- Navbar Container -->
       <nav class="container">
         <!-- Navbar logo -->
@@ -228,16 +228,15 @@
             <div class="row showcase">
               <!-- Mockup's part -->
               <div
-                class="image p-0 col-lg-6 d-flex justify-content-sm-center justify-content-lg-start"
+                class="image p-0 col-lg-6 d-flex justify-content-sm-center justify-content-lg-start align-items-center"
               >
                 <picture
-                  class="d-flex justify-content-sm-center justify-content-lg-start"
+                  class="d-flex justify-content-sm-center justify-content-lg-start align-items-center"
                 >
                   <img
                     loading="lazy"
                     draggable="false"
                     ondragstart="return false;"
-                    class=""
                     src="./images/mockup/banner_screen.png"
                     alt=""
                   />
@@ -696,7 +695,7 @@
                 </div>
                 <!-- for xl device only -->
                 <div
-                  class="position-absolute mockup col-xl-4 d-flex justify-content-xl-end d-xl-block d-none overflow-hidden"
+                  class="position-absolute mockup-1 col-xl-4 d-flex justify-content-xl-end d-xl-block d-none"
                 >
                   <img
                     draggable="false"
@@ -712,12 +711,12 @@
                 <!-- for xl device only -->
                 <!-- for lg device only -->
                 <div
-                  class="position-absolute mockup col-lg-6 d-flex justify-content-lg-end d-lg-block d-xl-none"
+                  class="position-absolute mockup-2 col-lg-6 d-flex justify-content-lg-end d-lg-block d-xl-none"
                 >
                   <img
+                    class="w-75"
                     draggable="false"
                     ondragstart="return false;"
-                    class="w-75"
                     data-aos="zoom-out-left"
                     data-aos-duration="700"
                     data-aos-offset="100"
