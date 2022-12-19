@@ -395,7 +395,7 @@
   }
   #main .banner .main-banner .showcase .text .gp-app-logo {
     width: 40%;
-    padding: 40px 0;
+    padding: 30px 0;
   }
 
   #main .banner .showcase .text .hero .highlight {
@@ -404,7 +404,7 @@
   /* banner end */
   /* About start */
   #main .about {
-    padding: 0;
+    padding: 30px;
     overflow-x: hidden;
     overflow-y: hidden;
   }
@@ -485,8 +485,7 @@
     font-size: 15px;
   }
   #main .features .main-showcase .item-1 .text h4::before {
-    content: "»";
-    color: var(--mf-orange);
+    content: " ";
   }
   #main .features .mamain-showcasein .item-1 .text h4 i {
     display: none;
