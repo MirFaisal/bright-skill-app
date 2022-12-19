@@ -72,10 +72,6 @@ body::-webkit-scrollbar-thumb {
 body::-webkit-scrollbar-track {
   opacity: 0;
 }
-body {
-  overflow-x: hidden;
-}
-
 /* preset Stylrs */
 
 /* common style */
@@ -140,6 +136,7 @@ p {
 
 /* Banner style start*/
 #main .banner {
+  padding: 70px 0;
   width: 100vw;
   height: 100vh;
   background: url(../images/svg/banner-bg.svg) no-repeat center;
@@ -360,7 +357,7 @@ p {
   transform: translate(-100%, -50%);
 }
 #main .features .main-showcase .item-2 .mockup-1 img {
-  width: 75%;
+  width: 78%;
   user-zoom: none;
   user-select: none;
   -moz-user-select: none;
