@@ -380,7 +380,10 @@
     height: 100%;
     overflow: hidden;
   }
-
+  #main .banner .main-banner .showcase .image img {
+    display: block;
+    height: 70vh;
+  }
   #main .banner .main-banner .showcase .text .brand-logo {
     display: none;
   }
@@ -649,7 +652,10 @@
     height: 100%;
     overflow: hidden;
   }
-
+  #main .banner .main-banner .showcase .image img {
+    display: block;
+    height: 65vh;
+  }
   #main .banner .main-banner .showcase .text .brand-logo {
     display: none;
   }
@@ -670,7 +676,7 @@
   /* banner end */
   /* About start */
   #main .about {
-    padding: 0;
+    padding: 50px;
     overflow-x: hidden;
     overflow-y: hidden;
   }

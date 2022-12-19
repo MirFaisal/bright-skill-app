@@ -236,6 +236,9 @@ p {
 #main .about .main-items .item p {
   color: var(--mf-peragraph);
 }
+#main .about .main-items .item .courses {
+  overflow-x: scroll;
+}
 #main .about .main-items .item img {
   user-zoom: none;
   user-select: none;
@@ -482,6 +485,12 @@ p {
 .slider-for .slick-next,
 .slider-for .slick-prev {
   top: 0%;
+}
+.slider-for .slick-next {
+  right: 0;
+}
+.slider-for .slick-prev {
+  right: 0;
 }
 /* reviews section end */
 /* faq style */
