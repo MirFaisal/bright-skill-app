@@ -94,15 +94,16 @@ p {
   padding: 10px 25px;
   background: var(--mf-background-gradient);
   color: var(--mf-white);
+  border-radius: 110px;
   transition: all 0.5s ease-in;
-  border: 1px solid transparent;
-  border-radius: 100px;
+  border: 1px solid rgba(255, 255, 255, 0);
 }
 .btn-gradient:hover {
   border: 1px solid #f83600;
   background: none;
   color: var(--mf-red);
 }
+
 /* Buttons style */
 /* common style */
 
@@ -133,46 +134,46 @@ p {
 /* Navbar style end*/
 
 /* Banner style start*/
-.main .banner {
+#main .banner {
   background: url(../images/svg/banner-bg.svg) no-repeat center;
   background-size: cover;
 }
-.main .banner .shapes {
+#main .banner .shapes {
   width: 100%;
   height: 100%;
   overflow: hidden;
 }
-.main .banner .main .showcase {
+#main .banner .main-banner .showcase {
   padding: 10% 0;
   height: 100%;
   overflow: hidden;
 }
-.main .banner .main .showcase .image img {
+#main .banner .main-banner .showcase .image img {
   width: 65%;
   animation: vibrate-1 5s linear infinite alternate-reverse both;
 }
-.main .banner .main .showcase .text {
+#main .banner .main-banner .showcase .text {
   font-family: "Poppins", sans-serif;
 }
-.main .banner .main .showcase .text .brand-logo {
+#main .banner .main-banner .showcase .text .brand-logo {
   width: 40%;
   padding: 0 0 20px;
 }
-.main .banner .showcase .text .hero {
+#main .banner .showcase .text .hero {
   padding: 0 0 10px;
   width: 100%;
   font-size: var(--mf-font-xxl);
 }
-.main .banner .showcase .text .hero .highlight {
+#main .banner .showcase .text .hero .highlight {
   font-size: var(--mf-font-xxl);
 }
 
-.main .banner .showcase .text .hero-motto {
+#main .banner .showcase .text .hero-motto {
   width: 100%;
   padding: 0 0 10px;
   font-size: var(--mf-font-md);
 }
-.main .banner .main .showcase .text .gp-app-logo {
+#main .banner .main-banner .showcase .text .gp-app-logo {
   user-zoom: none;
   user-select: none;
   -moz-user-select: none;
@@ -184,55 +185,55 @@ p {
 /* Banner style end*/
 
 /* About style start */
-.main .about {
+#main .about {
   padding: 60px 0;
   overflow: hidden;
 }
-.main .about::after {
+#main .about::after {
   content: url(../images/shape/shape_1.png);
   position: absolute;
   right: 0;
   top: 700px;
 }
-.main .about::before {
+#main .about::before {
   content: url(../images/shape/shape_2.png);
   position: absolute;
   left: 0;
   top: 100px;
 }
 
-.main .about .text .about-title {
+#main .about .text .about-title {
   margin: 0 auto;
   padding: 40px 0;
 }
 
-.main .about .text .about-title h2 {
+#main .about .text .about-title h2 {
   padding: 10px 0;
   font-size: var(--mf-font-xxl);
 }
-.main .about .text .about-title h2 .highlight {
+#main .about .text .about-title h2 .highlight {
   padding: 10px 0;
   font-size: var(--mf-font-xxl);
 }
-.main .about .text .about-title p {
+#main .about .text .about-title p {
   width: 640px;
   margin: 0 auto;
   font-size: var(--mf-font-md);
   line-height: 30px;
 }
-.main .about .text .about-title p .highlight-sm {
+#main .about .text .about-title p .highlight-sm {
   font-size: var(--mf-font-md);
 }
-.main .about .main .item {
+#main .about .main-items .item {
   padding: 50px 0;
 }
-.main .about .main .item h5 {
+#main .about .main-items .item h5 {
   padding: 15px 0;
 }
-.main .about .main .item p {
+#main .about .main-items .item p {
   color: var(--mf-peragraph);
 }
-.main .about .main .item img {
+#main .about .main-items .item img {
   user-zoom: none;
   user-select: none;
   -moz-user-select: none;
@@ -241,7 +242,7 @@ p {
   -ms-user-select: none;
   width: 100%;
 }
-.main .about .text .video-1 {
+#main .about .text .video-1 {
   width: 200px;
   height: 130px;
   background: url("https://panel.brightskills.com/media/course/Earn%20More%20Learn%20Motion%20Graphics/Motion-Graphics.jpg")
@@ -249,7 +250,7 @@ p {
   background-size: cover;
   border-radius: 20px;
 }
-.main .about .text .video-2 {
+#main .about .text .video-2 {
   width: 200px;
   height: 130px;
   background: url("https://panel.brightskills.com/media/course/Freelancing%20with%20WordPress%20Theme%20Customization/558-X-1.JPG")
@@ -257,7 +258,7 @@ p {
   background-size: cover;
   border-radius: 20px;
 }
-.main .about .text .video-3 {
+#main .about .text .video-3 {
   width: 200px;
   height: 130px;
   background: url("https://panel.brightskills.com/media/course/MS%20Excel%20Beginner%20to%20Advanced/558-X-364_Course-Banner_ii-of-MS-Excel-Beginner-to-Advanced.jpg")
@@ -265,7 +266,7 @@ p {
   background-size: cover;
   border-radius: 20px;
 }
-.main .about .text i {
+#main .about .text i {
   color: var(--mf-orange);
   font-size: var(--mf-font-xl);
   opacity: 0.8;
@@ -274,15 +275,15 @@ p {
 
 /* features style start */
 
-.main .features .main .title {
+#main .features .main-showcase .title {
   margin-bottom: 65px;
 }
-.main .features .main .item-1 {
+#main .features .main-showcase .item-1 {
   overflow-x: hidden;
   background: var(--mf-gray-100);
   padding: 75px 0;
 }
-.main .features .main .item-1 img {
+#main .features .main-showcase .item-1 img {
   user-zoom: none;
   user-select: none;
   -moz-user-select: none;
@@ -290,66 +291,66 @@ p {
   -webkit-user-select: none;
   -ms-user-select: none;
 }
-.main .features .main .item-1 .mockup-1 {
+#main .features .main-showcase .item-1 .mockup-1 {
   width: 100%;
 }
-.main .features .main .item-1 .mockup-1 img {
+#main .features .main-showcase .item-1 .mockup-1 img {
   width: 62%;
 }
-.main .features .main .item-1 .mockup-2 {
+#main .features .main-showcase .item-1 .mockup-2 {
   top: 16%;
   left: 40%;
   width: 100%;
 }
-.main .features .main .item-1 .mockup-2 img {
+#main .features .main-showcase .item-1 .mockup-2 img {
   width: 50%;
 }
 
-.main .features .main .item-1 .title h2 {
+#main .features .main-showcase .item-1 .title h2 {
   font-size: var(--mf-font-xxl);
 }
-.main .features .main .item-1 .title .highlight {
+#main .features .main-showcase .item-1 .title .highlight {
   font-size: var(--mf-font-xxl);
 }
-.main .features .main .item-1 p {
+#main .features .main-showcase .item-1 p {
   color: var(--mf-peragraph);
 }
 
-.main .features .main .item-1 .text {
+#main .features .main-showcase .item-1 .text {
   padding: 50px 0;
 }
-.main .features .main .item-1 .text h2 {
+#main .features .main-showcase .item-1 .text h2 {
   padding: 20px 0;
 }
-.main .features .main .item-1 .text .feature-name {
+#main .features .main-showcase .item-1 .text .feature-name {
   padding: 10px 0;
 }
-.main .features .main .item-1 .text i {
+#main .features .main-showcase .item-1 .text i {
   color: var(--mf-orange);
 }
-.main .features .main .item-2 {
+#main .features .main-showcase .item-2 {
   width: 100%;
   background: url(../images/svg/feature-bg.svg) no-repeat center;
   background-size: cover;
   margin-bottom: 0px;
 }
 
-.main .features .main .item-2 .text {
+#main .features .main-showcase .item-2 .text {
   height: 500px;
 }
-.main .features .main .item-2 .text h2 {
+#main .features .main-showcase .item-2 .text h2 {
   padding: 10px 0;
 }
-.main .features .main .item-2 .text P {
+#main .features .main-showcase .item-2 .text P {
   padding: 10px 0;
   color: var(--mf-peragraph);
 }
-.main .features .main .item-2 .mockup {
+#main .features .main-showcase .item-2 .mockup {
   left: 100%;
   top: 50%;
   transform: translate(-100%, -50%);
 }
-.main .features .main .item-2 .mockup img {
+#main .features .main-showcase .item-2 .mockup img {
   user-zoom: none;
   user-select: none;
   -moz-user-select: none;
@@ -360,84 +361,96 @@ p {
 
 /* features style end */
 /* install style start */
-.main .install {
+#main .install {
   padding: 100px 0;
   background: url(../images/svg/install-bg.svg) no-repeat center;
   background-size: cover;
   overflow: hidden;
 }
-.main .install .download-counte {
+#main .install .download-counte {
   padding: 20px 0;
 }
-.main .install .download-counte h2 {
+#main .install .download-counte h2 {
   font-size: var(--mf-font-xxl);
 }
-.main .install .download-counte h6 {
+#main .install .download-counte h6 {
   padding: 15px 0;
   font-size: var(--mf-font-md);
 }
-.main .install .download-counte .highlight {
+#main .install .download-counte .highlight {
   font-size: var(--mf-font-xxl);
 }
-.main .install .mockup .img {
+#main .install .mockup .img {
   height: 735px;
 }
-.main .install .main-process .slider .slick-next,
-.main .install .main-process .slider .slick-prev {
+#main .install .main-process .slider .slick-next,
+#main .install .main-process .slider .slick-prev {
   display: none !important;
 }
 /* install style end */
 
 /* reviews section start*/
-.main .reviews {
+#main .reviews {
   padding: 30px 0;
   background: url(../images/svg/reviews-bg.svg) no-repeat center;
   background-size: cover;
 }
-.main .reviews .text .title {
+#main .reviews .text .title {
   padding: 50px 0 50px;
 }
-.main .reviews .text .title h2 .highlight {
+#main .reviews .text .title h2 .highlight {
   font-size: var(--mf-font-xl);
 }
-.main .reviews .text h6 {
+#main .reviews .text h6 {
   padding: 10px 0;
 }
 
-.main .reviews .main .reviews-slider .slider-for {
+#main .reviews .main-showcase .reviews-slider .slider-for {
   display: flex;
   align-items: center;
   width: 100%;
   height: 200px;
 }
-.main .reviews .main .reviews-slider .slider-for .slider-item p {
+#main .reviews .main-showcase .reviews-slider .slider-for .slider-item p {
   position: relative;
   width: 50%;
   margin: 0 auto;
 }
-.main .reviews .main .reviews-slider .slider-for .slider-item p::before {
+.main
+  .reviews
+  .main-showcase
+  .reviews-slider
+  .slider-for
+  .slider-item
+  p::before {
   position: absolute;
   top: 0px;
   left: -10%;
   content: url(../images/shape/start.png);
 }
-.main .reviews .main .reviews-slider .slider-for .slider-item p::after {
+.main
+  .reviews
+  .main-showcase
+  .reviews-slider
+  .slider-for
+  .slider-item
+  p::after {
   position: absolute;
   top: 0px;
   right: -10%;
   content: url(../images/shape/end.png);
 }
-.main .reviews .main .reviews-slider .slider-nav .slider-nav-item {
+#main .reviews .main-showcase .reviews-slider .slider-nav .slider-nav-item {
   width: 100%;
   height: 400px;
 }
 
-.main .reviews .main .reviews-slider .slider-nav .slider-nav-item img {
+#main .reviews .main-showcase .reviews-slider .slider-nav .slider-nav-item img {
   border-radius: 50%;
   width: 50%;
   margin: 0 auto;
 }
-.main .reviews .main .reviews-slider .slider-nav .slick-center img {
+#main .reviews .main-showcase .reviews-slider .slider-nav .slick-center img {
   transform: scale(1.5);
   transition: all 0.6s;
 }
@@ -466,7 +479,7 @@ p {
 .faq .text h6 {
   padding: 15px 0 15px;
 }
-.faq .main {
+.faq .main-showcase {
   padding: 50px 0 50px;
 }
 .faq .main-accordian {

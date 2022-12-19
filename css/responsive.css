@@ -42,64 +42,64 @@
   /* navbar end */
 
   /* Banner start*/
-  .main .banner {
+  #main .banner {
     height: 70vh;
   }
-  .main .banner .shapes {
+  #main .banner .shapes {
     overflow: hidden;
   }
-  .main .banner .shapes .item-1 {
+  #main .banner .shapes .item-1 {
     top: 15%;
     left: 15%;
   }
-  .main .banner .shapes .item-4 {
+  #main .banner .shapes .item-4 {
     top: 100%;
     left: 119%;
   }
-  .main .banner .shapes .item-5 {
+  #main .banner .shapes .item-5 {
     top: 90%;
     left: 90%;
   }
-  .main .banner .shapes .item-6 {
+  #main .banner .shapes .item-6 {
     display: none;
   }
-  .main .banner .shapes .item-7 {
+  #main .banner .shapes .item-7 {
     display: none;
   }
-  .main .banner .shapes .item-8 {
+  #main .banner .shapes .item-8 {
     display: none;
   }
-  .main .banner .shapes .item-3 .object-3 {
+  #main .banner .shapes .item-3 .object-3 {
     opacity: 0.8;
   }
-  .main .banner .main .showcase {
+  #main .banner .main-banner .showcase {
     padding-top: 150px;
     height: 100%;
     overflow: hidden;
   }
-  .main .banner .main .showcase .image img {
+  #main .banner .main-banner .showcase .image img {
     display: none;
   }
-  .main .banner .main .showcase .text .brand-logo {
+  #main .banner .main-banner .showcase .text .brand-logo {
     display: none;
   }
-  .main .banner .showcase .text .hero {
+  #main .banner .showcase .text .hero {
     font-size: var(--mf-font-sxl);
   }
-  .main .banner .showcase .text .hero .highlight {
+  #main .banner .showcase .text .hero .highlight {
     font-size: var(--mf-font-xl);
   }
-  .main .banner .main .showcase .text .gp-app-logo {
+  #main .banner .main-banner .showcase .text .gp-app-logo {
     width: 40%;
     padding: 40px 0;
   }
 
-  .main .banner .showcase .text .hero .highlight {
+  #main .banner .showcase .text .hero .highlight {
     font-size: var(--mf-font-xl);
   }
   /* banner end */
   /* About start */
-  .main .about {
+  #main .about {
     padding: 20px 0;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -111,109 +111,109 @@
   .about::before {
     display: none;
   }
-  .main .about .text .about-title {
+  #main .about .text .about-title {
     width: auto;
   }
-  .main .about .text .about-title h2 {
+  #main .about .text .about-title h2 {
     margin: 0 auto;
     font-size: var(--mf-font-rmd);
     padding-bottom: 10px;
     width: auto;
   }
-  .main .about .text .about-title h2 .highlight {
-	padding: 10px 0;
-	font-size: var(--mf-font-rmd);
-}
-  .main .about .text .about-title p {
+  #main .about .text .about-title h2 .highlight {
+    padding: 10px 0;
+    font-size: var(--mf-font-rmd);
+  }
+  #main .about .text .about-title p {
     width: auto;
     margin: 0 auto;
     font-size: var(--mf-font-md);
     line-height: 20px;
   }
-  .main .about .text .about-title .highlight-sm {
+  #main .about .text .about-title .highlight-sm {
     font-size: var(--mf-font-sm);
   }
-  .main .about .main .item {
+  #main .about .main-items .item {
     padding: 20px 0;
     overflow-x: hidden;
   }
-  .main .about .main .item p {
+  #main .about .main-items .item p {
     color: var(--mf-peragraph);
     font-size: var(--mf-font-sm);
     padding: 15px 0;
   }
-  .main .about .main .item .courses {
+  #main .about .main-items .item .courses {
     overflow: scroll;
   }
   /* about end */
 
   /* features start*/
-  .main .features {
+  #main .features {
     height: 100%;
   }
-  .main .features .main {
+  #main .features .main-showcase {
     overflow-x: hidden;
   }
-  .main .features .main .title {
+  #main .features .main-showcase .title {
     margin-bottom: 60px;
     text-align: center;
   }
-  .main .features .main .item-1 {
+  #main .features .main-showcase .item-1 {
     padding: 30px 0;
   }
-  .main .features .main .item-1 .title h2 {
+  #main .features .main-showcase .item-1 .title h2 {
     padding: 0 5px;
     width: auto;
     font-size: var(--mf-font-sxl);
   }
-  .main .features .main .item-1 .title .highlight {
+  #main .features .main-showcase .item-1 .title .highlight {
     font-size: var(--mf-font-sxl);
   }
-  .main .features .main .item-1 .text {
+  #main .features .main-showcase .item-1 .text {
     padding-top: 35px;
   }
-  .main .features .main .item-1 .text h2 {
+  #main .features .main-showcase .item-1 .text h2 {
     font-size: 23px;
     color: var(--mf-orange);
   }
-  .main .features .main .item-1 .text p {
+  #main .features .main-showcase .item-1 .text p {
     font-size: var(--mf-font-sm);
     padding: 0px 10px;
     text-align: center;
   }
-  .main .features .main .item-1 .text h4 {
+  #main .features .main-showcase .item-1 .text h4 {
     font-size: 15px;
   }
-  .main .features .main .item-1 .text h4::before {
+  #main .features .main-showcase .item-1 .text h4::before {
     content: "»";
     color: var(--mf-orange);
   }
-  .main .features .main .item-1 .text h4 i {
+  #main .features .main-showcase .item-1 .text h4 i {
     display: none;
   }
-  .main .features .main .item-2 {
+  #main .features .main-showcase .item-2 {
     display: none !important;
   }
   /* featurs section end */
   /* install start*/
-  .main .install {
+  #main .install {
     padding: 15px 0;
     overflow: hidden;
   }
-  .main .install.download-counte h2 {
+  #main .install.download-counte h2 {
     font-size: var(--mf-font-rmd);
   }
-  .main .install.download-counte .highlight {
+  #main .install.download-counte .highlight {
     font-size: var(--mf-font-rmd);
   }
-  .main .install.download-counte h6 {
+  #main .install.download-counte h6 {
     padding: 5px 0;
     font-size: var(--mf-font-sm);
   }
   /* install ens*/
 
   /* rewiews style */
-  .main .reviews {
+  #main .reviews {
     height: 100%;
     padding: 20px 0;
     overflow-x: hidden;
@@ -222,42 +222,60 @@
     background-size: auto;
   }
 
-  .main .reviews .text .title {
+  #main .reviews .text .title {
     padding: 5px 0;
   }
-  .main .reviews .main .reviews-slider .slider-for {
+  #main .reviews .main-showcase .reviews-slider .slider-for {
     height: 90px;
   }
-  .main .reviews .text .title h2 .highlight {
+  #main .reviews .text .title h2 .highlight {
     font-size: var(--mf-font-rmd);
   }
-  .main .reviews .main .reviews-slider .slider-for h3 {
+  #main .reviews .main-showcase .reviews-slider .slider-for h3 {
     font-size: var(--mf-font-md);
   }
-  .main .reviews .main .reviews-slider .slider-nav .slider-nav-item {
+  #main .reviews .main-showcase .reviews-slider .slider-nav .slider-nav-item {
     height: 200px;
   }
-  .main .reviews .main .reviews-slider .slider-for .slider-item p {
+  #main .reviews .main-showcase .reviews-slider .slider-for .slider-item p {
     position: relative;
     width: 80%;
     margin: 0 auto;
   }
-  .main .reviews .main .reviews-slider .slider-for .slider-item p::before {
+  #main
+    .reviews
+    #main-showcase
+    .reviews-slider
+    .slider-for
+    .slider-item
+    p::before {
     display: none;
     content: "";
   }
-  .main .reviews .main .reviews-slider .slider-for .slider-item p::after {
+  #main
+    .reviews
+    #main-showcase
+    .reviews-slider
+    .slider-for
+    .slider-item
+    p::after {
     display: none;
     content: "";
   }
-  .main .reviews .main .slider .slider-nav .slider-nav-item img {
+  #main .reviews .main-showcase .slider .slider-nav .slider-nav-item img {
     width: 70%;
     margin: 0 auto;
   }
-  .main .reviews .main .reviews-slider .slider-nav .slider-nav-item img {
+  #main
+    .reviews
+    #main-showcase
+    .reviews-slider
+    .slider-nav
+    .slider-nav-item
+    img {
     width: 35%;
   }
-  .main .reviews .main .slider .slider-for .slider-item p {
+  #main .reviews .main-showcase .slider .slider-for .slider-item p {
     width: 80%;
     margin: 0 auto;
     font-size: var(--mf-font-sm);
@@ -277,20 +295,20 @@
     top: -45%;
   }
   /* faq start */
-  .main .faq {
+  #main .faq {
     padding: 30px 0;
   }
-  .main .faq .text .title {
+  #main .faq .text .title {
     font-size: var(--mf-font-sxl);
     padding: 10px 0;
   }
-  .main .faq .main {
+  #main .faq .main-showcase {
     padding: 0px 0;
   }
-  .main-accordian .accordion-button {
+  #main-accordian .accordion-button {
     font-size: var(--mf-font-sm);
   }
-  .main-accordian .accordion-body ul li,
+  #main-accordian .accordion-body ul li,
   p {
     font-size: var(--mf-font-esm);
   }
@@ -330,59 +348,59 @@
   /* navbar end */
 
   /* Banner start*/
-  .main .banner .shapes {
+  #main .banner .shapes {
     overflow: hidden;
   }
-  .main .banner .shapes .item-1 {
+  #main .banner .shapes .item-1 {
     top: 15%;
     left: 15%;
   }
-  .main .banner .shapes .item-4 {
+  #main .banner .shapes .item-4 {
     top: 100%;
     left: 119%;
   }
-  .main .banner .shapes .item-5 {
+  #main .banner .shapes .item-5 {
     top: 90%;
     left: 90%;
   }
-  .main .banner .shapes .item-6 {
+  #main .banner .shapes .item-6 {
     display: none;
   }
-  .main .banner .shapes .item-7 {
+  #main .banner .shapes .item-7 {
     display: none;
   }
-  .main .banner .shapes .item-8 {
+  #main .banner .shapes .item-8 {
     display: none;
   }
-  .main .banner .shapes .item-3 .object-3 {
+  #main .banner .shapes .item-3 .object-3 {
     opacity: 0.8;
   }
-  .main .banner .main .showcase {
+  #main .banner .main-banner .showcase {
     padding-top: 35px;
     height: 100%;
     overflow: hidden;
   }
 
-  .main .banner .main .showcase .text .brand-logo {
+  #main .banner .main-banner .showcase .text .brand-logo {
     display: none;
   }
-  .main .banner .showcase .text .hero {
+  #main .banner .showcase .text .hero {
     font-size: var(--mf-font-sxl);
   }
-  .main .banner .showcase .text .hero .highlight {
+  #main .banner .showcase .text .hero .highlight {
     font-size: var(--mf-font-xl);
   }
-  .main .banner .main .showcase .text .gp-app-logo {
+  #main .banner .main-banner .showcase .text .gp-app-logo {
     width: 40%;
     padding: 40px 0;
   }
 
-  .main .banner .showcase .text .hero .highlight {
+  #main .banner .showcase .text .hero .highlight {
     font-size: var(--mf-font-xl);
   }
   /* banner end */
   /* About start */
-  .main .about {
+  #main .about {
     padding: 0;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -394,104 +412,104 @@
   .about::before {
     display: none;
   }
-  .main .about .text .about-title {
+  #main .about .text .about-title {
     width: auto;
   }
-  .main .about .text .about-title h2 {
+  #main .about .text .about-title h2 {
     margin: 0 auto;
     font-size: var(--mf-font-rmd);
     padding-bottom: 10px;
     width: auto;
   }
-  .main .about .text .about-title p {
+  #main .about .text .about-title p {
     width: 410px;
     margin: 0 auto;
     font-size: var(--mf-font-md);
     line-height: 20px;
   }
-  .main .about .text .about-title .highlight-sm {
+  #main .about .text .about-title .highlight-sm {
     font-size: var(--mf-font-sm);
   }
-  .main .about .main .item {
+  #main .about .main-items .item {
     padding: 20px 0;
     overflow-x: hidden;
   }
-  .main .about .main .item p {
+  #main .about .main-items .item p {
     color: var(--mf-peragraph);
     font-size: var(--mf-font-sm);
     padding: 15px 0;
   }
-  .main .about .main .item .courses {
+  #main .about .main-items .item .courses {
     overflow: scroll;
   }
   /* about end */
 
   /* features start*/
-  .main .features {
+  #main .features {
     height: 100%;
   }
-  .main .features .main {
+  #main .features .main-showcase {
     overflow-x: hidden;
   }
-  .main .features .main .title {
+  #main .features .main-showcase .title {
     margin-bottom: 60px;
     text-align: center;
   }
-  .main .features .main .item-1 {
+  #main .features .main-showcase .item-1 {
     padding: 30px 0;
   }
-  .main .features .main .item-1 .title h2 {
+  #main .features .main-showcase .item-1 .title h2 {
     padding: 0 5px;
     width: auto;
     font-size: var(--mf-font-sxl);
   }
-  .main .features .main .item-1 .title .highlight {
+  #main .features .main-showcase .item-1 .title .highlight {
     font-size: var(--mf-font-sxl);
   }
-  .main .features .main .item-1 .text {
+  #main .features .main-showcase .item-1 .text {
     padding-top: 35px;
   }
-  .main .features .main .item-1 .text h2 {
+  #main .features .main-showcase .item-1 .text h2 {
     font-size: 23px;
     color: var(--mf-orange);
   }
-  .main .features .main .item-1 .text p {
+  #main .features .main-showcase .item-1 .text p {
     font-size: var(--mf-font-sm);
     padding: 0px 10px;
     text-align: center;
   }
-  .main .features .main .item-1 .text h4 {
+  #main .features .main-showcase .item-1 .text h4 {
     font-size: 15px;
   }
-  .main .features .main .item-1 .text h4::before {
+  #main .features .main-showcase .item-1 .text h4::before {
     content: "»";
     color: var(--mf-orange);
   }
-  .main .features .main .item-1 .text h4 i {
+  #main .features .mamain-showcasein .item-1 .text h4 i {
     display: none;
   }
-  .main .features .main .item-2 {
+  #main .features .main-showcase .item-2 {
     display: none !important;
   }
   /* featurs section end */
   /* install start*/
-  .main .install {
+  #main .install {
     padding: 15px 0;
   }
-  .main .install .download-counte h2 {
+  #main .install .download-counte h2 {
     font-size: var(--mf-font-rmd);
   }
-  .main .install .download-counte .highlight {
+  #main .install .download-counte .highlight {
     font-size: var(--mf-font-rmd);
   }
-  .main .install .download-counte h6 {
+  #main .install .download-counte h6 {
     padding: 5px 0;
     font-size: var(--mf-font-sm);
   }
   /* install ens*/
 
   /* rewiews style */
-  .main .reviews {
+  #main .reviews {
     height: 100%;
     padding: 20px 0;
     overflow-x: hidden;
@@ -500,31 +518,37 @@
     background-size: auto;
   }
 
-  .main .reviews .text .title {
+  #main .reviews .text .title {
     padding: 5px 0;
   }
-  .main .reviews .main .reviews-slider .slider-for {
+  #main .reviews .main-showcase .reviews-slider .slider-for {
     height: 90px;
   }
-  .main .reviews .main .reviews-slider .slider-for h3 {
+  #main .reviews .main-showcase .reviews-slider .slider-for h3 {
     font-size: var(--mf-font-md);
   }
-  .main .reviews .main .reviews-slider .slider-nav .slider-nav-item {
+  #main .reviews .main-showcase .reviews-slider .slider-nav .slider-nav-item {
     height: 200px;
   }
-  .main .reviews .main .reviews-slider .slider-for .slider-item p {
+  #main .reviews .main-showcase .reviews-slider .slider-for .slider-item p {
     position: relative;
     width: 80%;
     margin: 0 auto;
   }
-  .main .reviews .main .slider .slider-nav .slider-nav-item img {
+  #main .reviews .main-showcase .slider .slider-nav .slider-nav-item img {
     width: 70%;
     margin: 0 auto;
   }
-  .main .reviews .main .reviews-slider .slider-nav .slider-nav-item img {
+  #main
+    .reviews
+    #main-showcase
+    .reviews-slider
+    .slider-nav
+    .slider-nav-item
+    img {
     width: 35%;
   }
-  .main .reviews .main .slider .slider-for .slider-item p {
+  #main .reviews .main-showcase .slider .slider-for .slider-item p {
     width: 80%;
     margin: 0 auto;
     font-size: var(--mf-font-sm);
@@ -540,20 +564,20 @@
     font-size: 20px;
   }
   /* faq start */
-  .main .faq {
+  #main .faq {
     padding: 30px 0;
   }
-  .main .faq .text .title {
+  #main .faq .text .title {
     font-size: var(--mf-font-sxl);
     padding: 10px 0;
   }
-  .main .faq .main {
+  #main .faq .main-showcase {
     padding: 0px 0;
   }
-  .main-accordian .accordion-button {
+  #main-accordian .accordion-button {
     font-size: var(--mf-font-sm);
   }
-  .main-accordian .accordion-body ul li,
+  #main-accordian .accordion-body ul li,
   p {
     font-size: var(--mf-font-esm);
   }
@@ -593,59 +617,59 @@
   /* navbar end */
 
   /* Banner start*/
-  .main .banner .shapes {
+  #main .banner .shapes {
     overflow: hidden;
   }
-  .main .banner .shapes .item-1 {
+  #main .banner .shapes .item-1 {
     top: 15%;
     left: 15%;
   }
-  .main .banner .shapes .item-4 {
+  #main .banner .shapes .item-4 {
     top: 100%;
     left: 119%;
   }
-  .main .banner .shapes .item-5 {
+  #main .banner .shapes .item-5 {
     top: 90%;
     left: 90%;
   }
-  .main .banner .shapes .item-6 {
+  #main .banner .shapes .item-6 {
     display: none;
   }
-  .main .banner .shapes .item-7 {
+  #main .banner .shapes .item-7 {
     display: none;
   }
-  .main .banner .shapes .item-8 {
+  #main .banner .shapes .item-8 {
     display: none;
   }
-  .main .banner .shapes .item-3 .object-3 {
+  #main .banner .shapes .item-3 .object-3 {
     opacity: 0.8;
   }
-  .main .banner .main .showcase {
+  #main .banner .main-banner .showcase {
     padding-top: 35px;
     height: 100%;
     overflow: hidden;
   }
 
-  .main .banner .main .showcase .text .brand-logo {
+  #main .banner .main-banner .showcase .text .brand-logo {
     display: none;
   }
-  .main .banner .showcase .text .hero {
+  #main .banner .showcase .text .hero {
     font-size: var(--mf-font-sxl);
   }
-  .main .banner .showcase .text .hero .highlight {
+  #main .banner .showcase .text .hero .highlight {
     font-size: var(--mf-font-xl);
   }
-  .main .banner .main .showcase .text .gp-app-logo {
+  #main .banner .main-banner .showcase .text .gp-app-logo {
     width: 40%;
     padding: 40px 0;
   }
 
-  .main .banner .showcase .text .hero .highlight {
+  #main .banner .showcase .text .hero .highlight {
     font-size: var(--mf-font-xl);
   }
   /* banner end */
   /* About start */
-  .main .about {
+  #main .about {
     padding: 0;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -657,104 +681,104 @@
   .about::before {
     display: none;
   }
-  .main .about .text .about-title {
+  #main .about .text .about-title {
     width: auto;
   }
-  .main .about .text .about-title h2 {
+  #main .about .text .about-title h2 {
     margin: 0 auto;
     font-size: var(--mf-font-rmd);
     padding-bottom: 10px;
     width: auto;
   }
-  .main .about .text .about-title p {
+  #main .about .text .about-title p {
     width: 410px;
     margin: 0 auto;
     font-size: var(--mf-font-md);
     line-height: 20px;
   }
-  .main .about .text .about-title .highlight-sm {
+  #main .about .text .about-title .highlight-sm {
     font-size: var(--mf-font-sm);
   }
-  .main .about .main .item {
+  #main .about .main-items .item {
     padding: 20px 0;
     overflow-x: hidden;
   }
-  .main .about .main .item p {
+  #main .about .main-items .item p {
     color: var(--mf-peragraph);
     font-size: var(--mf-font-sm);
     padding: 15px 0;
   }
-  .main .about .main .item .courses {
+  #main .about .main-items .item .courses {
     overflow: scroll;
   }
   /* about end */
 
   /* features start*/
-  .main .features {
+  #main .features {
     height: 100%;
   }
-  .main .features .main {
+  #main .features .main-showcase {
     overflow-x: hidden;
   }
-  .main .features .main .title {
+  #main .features .main-showcase .title {
     margin-bottom: 60px;
     text-align: center;
   }
-  .main .features .main .item-1 {
+  #main .features .main-showcase .item-1 {
     padding: 30px 0;
   }
-  .main .features .main .item-1 .title h2 {
+  #main .features .main-showcase .item-1 .title h2 {
     padding: 0 5px;
     width: auto;
     font-size: var(--mf-font-sxl);
   }
-  .main .features .main .item-1 .title .highlight {
+  #main .features .main-showcase .item-1 .title .highlight {
     font-size: var(--mf-font-sxl);
   }
-  .main .features .main .item-1 .text {
+  #main .features .main-showcase .item-1 .text {
     padding-top: 35px;
   }
-  .main .features .main .item-1 .text h2 {
+  #main .features .main-showcase .item-1 .text h2 {
     font-size: 23px;
     color: var(--mf-orange);
   }
-  .main .features .main .item-1 .text p {
+  #main .features .main-showcase .item-1 .text p {
     font-size: var(--mf-font-sm);
     padding: 0px 10px;
     text-align: center;
   }
-  .main .features .main .item-1 .text h4 {
+  #main .features .main-showcase .item-1 .text h4 {
     font-size: 15px;
   }
-  .main .features .main .item-1 .text h4::before {
+  #main .features .main-showcase .item-1 .text h4::before {
     content: "»";
     color: var(--mf-orange);
   }
-  .main .features .main .item-1 .text h4 i {
+  #main .features .main-showcase .item-1 .text h4 i {
     display: none;
   }
-  .main .features .main .item-2 {
+  #main .features .main-showcase .item-2 {
     display: none !important;
   }
   /* featurs section end */
   /* install start*/
-  .main .install {
+  #main .install {
     padding: 15px 0;
   }
-  .main .install.download-counte h2 {
+  #main .install.download-counte h2 {
     font-size: var(--mf-font-rmd);
   }
-  .main .install.download-counte .highlight {
+  #main .install.download-counte .highlight {
     font-size: var(--mf-font-rmd);
   }
-  .main .install.download-counte h6 {
+  #main .install.download-counte h6 {
     padding: 5px 0;
     font-size: var(--mf-font-sm);
   }
   /* install ens*/
 
   /* rewiews style */
-  .main .reviews {
+  #main .reviews {
     height: 100%;
     padding: 20px 0;
     overflow-x: hidden;
@@ -763,31 +787,37 @@
     background-size: auto;
   }
 
-  .main .reviews .text .title {
+  #main .reviews .text .title {
     padding: 5px 0;
   }
-  .main .reviews .main .reviews-slider .slider-for {
+  #main .reviews .main-showcase .reviews-slider .slider-for {
     height: 90px;
   }
-  .main .reviews .main .reviews-slider .slider-for h3 {
+  #main .reviews .maimain-showcasen .reviews-slider .slider-for h3 {
     font-size: var(--mf-font-md);
   }
-  .main .reviews .main .reviews-slider .slider-nav .slider-nav-item {
+  #main .reviews .main-showcase .reviews-slider .slider-nav .slider-nav-item {
     height: 200px;
   }
-  .main .reviews .main .reviews-slider .slider-for .slider-item p {
+  #main .reviews .main-showcase .reviews-slider .slider-for .slider-item p {
     position: relative;
     width: 80%;
     margin: 0 auto;
   }
-  .main .reviews .main .slider .slider-nav .slider-nav-item img {
+  #main .reviews .main-showcase .slider .slider-nav .slider-nav-item img {
     width: 70%;
     margin: 0 auto;
   }
-  .main .reviews .main .reviews-slider .slider-nav .slider-nav-item img {
+  #main
+    .reviews
+    #main-showcase
+    .reviews-slider
+    .slider-nav
+    .slider-nav-item
+    img {
     width: 35%;
   }
-  .main .reviews .main .slider .slider-for .slider-item p {
+  #main .reviews .main-showcase .slider .slider-for .slider-item p {
     width: 80%;
     margin: 0 auto;
     font-size: var(--mf-font-sm);
@@ -803,20 +833,20 @@
     font-size: 20px;
   }
   /* faq start */
-  .main .faq {
+  #main .faq {
     padding: 30px 0;
   }
-  .main .faq .text .title {
+  #main .faq .text .title {
     font-size: var(--mf-font-sxl);
     padding: 10px 0;
   }
-  .main .faq .main {
+  #main .faq .main-showcase {
     padding: 0px 0;
   }
-  .main-accordian .accordion-button {
+  #main-accordian .accordion-button {
     font-size: var(--mf-font-sm);
   }
-  .main-accordian .accordion-body ul li,
+  #main-accordian .accordion-body ul li,
   p {
     font-size: var(--mf-font-esm);
   }
