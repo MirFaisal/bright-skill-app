@@ -72,6 +72,9 @@ body::-webkit-scrollbar-thumb {
 body::-webkit-scrollbar-track {
   opacity: 0;
 }
+body {
+  overflow-x: hidden;
+}
 
 /* preset Stylrs */
 
