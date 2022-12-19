@@ -360,7 +360,7 @@ p {
   transform: translate(-100%, -50%);
 }
 #main .features .main-showcase .item-2 .mockup-1 img {
-  width: 90%;
+  width: 75%;
   user-zoom: none;
   user-select: none;
   -moz-user-select: none;
