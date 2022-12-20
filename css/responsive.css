@@ -200,13 +200,13 @@
     padding: 15px 0;
     overflow: hidden;
   }
-  #main .install.download-counte h2 {
+  #main .install .download-counte h2 {
     font-size: var(--mf-font-rmd);
   }
-  #main .install.download-counte .highlight {
+  #main .install .download-counte .highlight {
     font-size: var(--mf-font-rmd);
   }
-  #main .install.download-counte h6 {
+  #main .install .download-counte h6 {
     padding: 5px 0;
     font-size: var(--mf-font-sm);
   }
@@ -244,7 +244,7 @@
   }
   #main
     .reviews
-    #main-showcase
+    .main-showcase
     .reviews-slider
     .slider-for
     .slider-item
@@ -254,7 +254,7 @@
   }
   #main
     .reviews
-    #main-showcase
+    .main-showcase
     .reviews-slider
     .slider-for
     .slider-item
@@ -268,7 +268,7 @@
   }
   #main
     .reviews
-    #main-showcase
+    .main-showcase
     .reviews-slider
     .slider-nav
     .slider-nav-item
@@ -305,10 +305,10 @@
   #main .faq .main-showcase {
     padding: 0px 0;
   }
-  #main-accordian .accordion-button {
-    font-size: var(--mf-font-sm);
+  #main .main-accordian .accordion-button {
+    font-size: 10px !important;
   }
-  #main-accordian .accordion-body ul li,
+  #main .main-accordian .accordion-body ul li,
   p {
     font-size: var(--mf-font-esm);
   }
@@ -541,13 +541,7 @@
     width: 70%;
     margin: 0 auto;
   }
-  #main
-    .reviews
-    #main-showcase
-    .reviews-slider
-    .slider-nav
-    .slider-nav-item
-    img {
+  #main .reviews .main-showcase .reviews-slider .slider- .slider-nav-item img {
     width: 35%;
   }
   #main .reviews .main-showcase .slider .slider-for .slider-item p {
@@ -576,10 +570,10 @@
   #main .faq .main-showcase {
     padding: 0px 0;
   }
-  #main-accordian .accordion-button {
+  #main .main-accordian .accordion-button {
     font-size: var(--mf-font-sm);
   }
-  #main-accordian .accordion-body ul li,
+  #main .mian-accordian .accordion-body ul li,
   p {
     font-size: var(--mf-font-esm);
   }
@@ -770,13 +764,13 @@
   #main .install {
     padding: 15px 0;
   }
-  #main .install.download-counte h2 {
+  #main .install .download-counte h2 {
     font-size: var(--mf-font-rmd);
   }
-  #main .install.download-counte .highlight {
+  #main .install .download-counte .highlight {
     font-size: var(--mf-font-rmd);
   }
-  #main .install.download-counte h6 {
+  #main .install .download-counte h6 {
     padding: 5px 0;
     font-size: var(--mf-font-sm);
   }
@@ -815,7 +809,7 @@
   }
   #main
     .reviews
-    #main-showcase
+    .main-showcase
     .reviews-slider
     .slider-nav
     .slider-nav-item
@@ -848,10 +842,10 @@
   #main .faq .main-showcase {
     padding: 0px 0;
   }
-  #main-accordian .accordion-button {
+  #main .main-accordian .accordion-button {
     font-size: var(--mf-font-sm);
   }
-  #main-accordian .accordion-body ul li,
+  #main .main-accordian .accordion-body ul li,
   p {
     font-size: var(--mf-font-esm);
   }
