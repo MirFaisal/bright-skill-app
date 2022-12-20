@@ -46,6 +46,7 @@
     height: 70vh;
   }
   #main .banner .shapes {
+    height: 60vh;
     overflow: hidden;
   }
   #main .banner .shapes .item-1 {
@@ -100,9 +101,8 @@
   /* banner end */
   /* About start */
   #main .about {
-    padding: 20px 0;
-    overflow-x: hidden;
-    overflow-y: hidden;
+    padding: 0px 0;
+    overflow: hidden;
   }
 
   .about::after {
@@ -153,6 +153,7 @@
   }
   #main .features .main-showcase {
     overflow-x: hidden;
+    margin: 20px 0;
   }
   #main .features .main-showcase .title {
     margin-bottom: 60px;
@@ -348,7 +349,13 @@
   /* navbar end */
 
   /* Banner start*/
+  #main .banner {
+    padding: 0;
+    height: 100vh;
+  }
+
   #main .banner .shapes {
+    height: 60vh;
     overflow: hidden;
   }
   #main .banner .shapes .item-1 {
@@ -382,7 +389,7 @@
   }
   #main .banner .main-banner .showcase .image img {
     display: block;
-    height: 70vh;
+    height: 50vh;
   }
   #main .banner .main-banner .showcase .text .brand-logo {
     display: none;
@@ -613,7 +620,12 @@
   /* navbar end */
 
   /* Banner start*/
+  #main .banner {
+    overflow: hidden;
+    padding: 0;
+  }
   #main .banner .shapes {
+    height: 85vh;
     overflow: hidden;
   }
   #main .banner .shapes .item-1 {
@@ -647,7 +659,7 @@
   }
   #main .banner .main-banner .showcase .image img {
     display: block;
-    height: 65vh;
+    height: 55vh;
   }
   #main .banner .main-banner .showcase .text .brand-logo {
     display: none;
@@ -659,7 +671,7 @@
     font-size: var(--mf-font-xl);
   }
   #main .banner .main-banner .showcase .text .gp-app-logo {
-    width: 40%;
+    width: 20%;
     padding: 40px 0;
   }
 
