@@ -1,4 +1,5 @@
 /* Remote Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Poppins:wght@400;500;700;900&display=swap");
 /* Remote Fonts */
 
@@ -118,18 +119,47 @@ p {
 .navbar .navbar-nav .nav-item {
   border-bottom: 1px solid transparent;
 }
+.navbar .navbar-nav .nav-item:hover {
+  border-bottom: 1px solid transparent;
+  border-color: var(--mf-orange);
+}
+.navbar .navbar-nav .nav-item .nav-link {
+  font-family: "Roboto Flex", sans-serif;
+}
 .navbar .navbar-nav .nav-item .nav-link:hover {
+  border-color: var(--mf-orange);
   color: var(--mf-orange) !important;
 }
 
 .navbar .navbar-nav .nav-item:last-child {
   margin-right: 0px;
 }
+
 .navbar-nav .nav-link.active {
   color: var(--mf-orange);
   border-bottom: 1px solid;
   border-color: var(--mf-orange);
-  transition: all 0.4s linear;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+.navbar-nav .nav-link.active::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  top: 100%;
+  left: 0;
+  background-color: var(--mf-orange);
+  transform-origin: bottom right;
+  transition: transform 0.7s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.navbar-nav .nav-link.active:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 /* Navbar style end*/
@@ -152,7 +182,6 @@ p {
   overflow: hidden;
 }
 #main .banner .main-banner .showcase .image img {
-  width: 100%;
   height: 90vh;
 }
 #main .banner .main-banner .showcase .text {
