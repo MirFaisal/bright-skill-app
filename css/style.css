@@ -173,8 +173,10 @@ p {
   background-size: cover;
 }
 #main .banner .shapes {
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 90vh;
+  height: 100%;
   overflow: hidden;
 }
 #main .banner .main-banner .showcase {
