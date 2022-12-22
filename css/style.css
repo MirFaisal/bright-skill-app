@@ -178,11 +178,11 @@ p {
   overflow: hidden;
 }
 #main .banner .main-banner .showcase {
-  height: 95vh;
+  height: 90vh;
   overflow: hidden;
 }
 #main .banner .main-banner .showcase .image img {
-  height: 90vh;
+  height: 80vh;
 }
 #main .banner .main-banner .showcase .text {
   font-family: "Poppins", sans-serif;
