@@ -7,3 +7,6 @@ We are committed to eliminating unemployment from the country and creating globa
 
 - [@MirFaisal](https://github.com/MirFaisal)
 - [@Afsana_Yesmin](https://github.com/MirFaisal)
+
+## Site Demo
+[BrightSkills Live Preview](https://mirfaisal.github.io/bright-skill-app/).
