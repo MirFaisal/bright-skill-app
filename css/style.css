@@ -59,6 +59,7 @@
   scroll-behavior: smooth;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
+  overflow-y:hidden;
 }
 body::-webkit-scrollbar {
   width: 12px;
